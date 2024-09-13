@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -16,10 +17,19 @@ public class Main {
             System.out.print("Ban co phai la nguoi chau a? (y/n): ");
             race = scan.nextLine();
         }
-        System.out.print("Nhap chieu cao (m): ");
-        heightInMeters = scan.nextFloat();
-        System.out.print("Nhap can nang: ");
-        weight = scan.nextFloat();
+        while(!(heightInMeters > 1 && heightInMeters <2.5) || !(weight > 1 && weight <500) ){
+            try {
+                System.out.print("Nhap chieu cao (m): ");
+                heightInMeters = scan.nextFloat();
+    
+                System.out.print("Nhap can nang: ");
+                weight = scan.nextFloat();
+            } catch (Exception e) {
+                System.out.println("Loi: Du lieu nhap vao khong hop le. Vui long nhap so thuc.");
+                throw new Error(e);
+            }
+        }
+        
         bmi = weight / (heightInMeters * heightInMeters);
         System.out.println("BMI: "+ String.format("%.2f", bmi));
         if(race == "n"){
