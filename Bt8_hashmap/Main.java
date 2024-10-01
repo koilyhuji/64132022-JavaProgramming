@@ -1,4 +1,3 @@
-package Bt8_hashmap;
 
 import java.util.HashMap;
 

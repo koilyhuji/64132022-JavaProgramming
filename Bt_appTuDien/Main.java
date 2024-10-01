@@ -1,5 +1,3 @@
-package Bt_appTuDien;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,6 +20,10 @@ public class Main {
         System.out.println("nhap tu :");
         Scanner sc = new Scanner(System.in);
         String w = sc.next();
+        if(!words.containsKey(w)){
+            System.out.println("tu nhap khong co trong tu dien");
+            return;
+        }
         System.out.println("nghia la : "+ words.get(w));
     }
 }

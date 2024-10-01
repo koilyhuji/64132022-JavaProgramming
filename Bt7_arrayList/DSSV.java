@@ -1,4 +1,4 @@
-package Bt7_arrayList;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

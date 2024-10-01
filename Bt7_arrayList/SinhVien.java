@@ -1,6 +1,3 @@
-package Bt7_arrayList;
-
-
 public class SinhVien{
 	private String id;
 	private String hoten;

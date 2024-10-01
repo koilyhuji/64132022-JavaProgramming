@@ -1,4 +1,3 @@
-package Bt7_arrayList;
 
 import java.util.Scanner;
 
