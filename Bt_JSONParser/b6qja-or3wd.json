@@ -1,0 +1,948 @@
+[
+{"TT":"1","name":"Bùi Thúc Minh","gender":"m","qualifications":"TS","fileds":"Năng lượng và môi trường điện từ","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"2","name":"Lê Thị Hường","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật điện","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"3","name":"Nguyễn Hoài Bão","gender":"m","qualifications":"Ths","fileds":"Thiết bị mạng và nhà máy điện","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"4","name":"Nguyễn Xuân Huy","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật điện","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"5","name":"Nguyễn Thị Thu Trang","gender":"f","qualifications":"Ths","fileds":"Mạng và hệ thống điện","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"6","name":"Nguyễn Thành Phương","gender":"m","qualifications":"Ths","fileds":"Điện tử và máy tính","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"7","name":"Nhữ Khải Hoàn","gender":"m","qualifications":"TS","fileds":"Tự động hóa","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"8","name":"Hoàng Thị Thơm","gender":"f","qualifications":"TS","fileds":"Kỹ thuật điện","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"9","name":"Nguyễn Văn Hân","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật thông tin và truyền thông","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"10","name":"Nguyễn Thanh Tuấn","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật điện tử","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"11","name":"Trần Đức Dũng","gender":"m","qualifications":"TS","fileds":"Nghiên cứu Robot","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"12","name":"Nguyễn Văn Lợi","gender":"m","qualifications":"ĐH","fileds":"Kỹ thuật điện, điện tử","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"13","name":"Nguyễn Thị Thùy","gender":"f","qualifications":"Ths","fileds":"Tự động hóa","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"14","name":"Nguyễn Thành Vinh","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật điện tử","undergrad_lec":"Kỹ thuật điện","postgrad_lec":""}
+,
+{"TT":"15","name":"Lê Nam Tuấn","gender":"m","qualifications":"TS","fileds":"Kỹ thuật điện tử","undergrad_lec":"Kỹ thuật điện","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"16","name":"Nguyễn Văn Hòa","gender":"m","qualifications":"TS","fileds":"Công nghệ và kỹ thuật hóa chất","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"17","name":"Trần Thị Hoàng Quyên","gender":"f","qualifications":"TS","fileds":"Hóa sinh","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"18","name":"Trần Quang Ngọc","gender":"m","qualifications":"TS","fileds":"Hóa học và hóa lý các hợp chất polymer","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"19","name":"Hoàng Thị Trang Nguyên","gender":"f","qualifications":"Ths","fileds":"Vật liệu hữu cơ, cấu trúc nano và tính bền vững","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":""}
+,
+{"TT":"20","name":"Hà Thị Hải Yến","gender":"f","qualifications":"TS","fileds":"Hóa kỹ thuật","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"21","name":"Phan Vĩnh Thịnh","gender":"m","qualifications":"TS","fileds":"Hóa học","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"22","name":"Trần Thị Thảo Vy","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật hóa học","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":""}
+,
+{"TT":"23","name":"Trần Thị Phương Anh","gender":"f","qualifications":"TS","fileds":"Học học","undergrad_lec":"Kỹ thuật hóa học","postgrad_lec":""}
+,
+{"TT":"24","name":"Thái Văn Đức","gender":"m","qualifications":"TS","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"25","name":"Nguyễn Thị Mỹ Trang","gender":"f","qualifications":"Ths","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"26","name":"Nguyễn Anh Tuấn","gender":"m","qualifications":"PGS","fileds":"Công nghệ sản phẩm từ thịt và cá","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"27","name":"Nguyễn Thị Thục","gender":"f","qualifications":"Ths","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"28","name":"Nguyễn Trọng Bách","gender":"m","qualifications":"TS","fileds":"Hóa học, hóa lý Polime","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"29","name":"Huỳnh Nguyễn Duy Bảo","gender":"m","qualifications":"PGS","fileds":"Sinh học biển ứng dụng","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"30","name":"Phạm Văn Đạt","gender":"m","qualifications":"Ths","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"31","name":"Nguyễn Xuân Duy","gender":"m","qualifications":"ĐH","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"32","name":"Vũ Lệ Quyên","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"33","name":"Phạm Thị Hiền","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"34","name":"Trần Thị Huyền","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"35","name":"Đỗ Trọng Sơn","gender":"m","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"36","name":"Nguyễn Thế Hân","gender":"m","qualifications":"TS","fileds":"Sinh học biển ứng dụng","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"37","name":"Trần Văn Vương","gender":"m","qualifications":"TS","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"38","name":"Đặng Thị Tố Uyên","gender":"f","qualifications":"Ths","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"39","name":"Phạm Hồng Ngọc Thùy","gender":"f","qualifications":"TS","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"40","name":"Nguyễn Hồng Ngân","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"41","name":"Đỗ Lê Hữu Nam","gender":"m","qualifications":"TS","fileds":"Công nghệ thịt cá, sữa và lạnh đông","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"42","name":"Nguyễn Phước Bảo Hoàng","gender":"m","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"43","name":"Ngô Thị Hoài Dương","gender":"f","qualifications":"TS","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"44","name":"Nguyễn Thị Thanh Hải","gender":"f","qualifications":"Ths","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"45","name":"Phạm Ngọc Minh Quỳnh","gender":"f","qualifications":"TS","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"46","name":"Hoàng Ngọc Anh","gender":"m","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ chế biến thủy sản","postgrad_lec":""}
+,
+{"TT":"47","name":"Nguyễn Văn Tường","gender":"m","qualifications":"PGS","fileds":"Chế tạo máy và thiết bị","undergrad_lec":"Công nghệ chế tạo máy","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"48","name":"Nguyễn Minh Quân","gender":"m","qualifications":"Ths","fileds":"Quản lý sản xuất","undergrad_lec":"Công nghệ chế tạo máy","postgrad_lec":""}
+,
+{"TT":"49","name":"Ngô Quang Trọng","gender":"m","qualifications":"TS","fileds":"Công nghệ chế tạo máy","undergrad_lec":"Công nghệ chế tạo máy","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"50","name":"Trịnh Thị Linh","gender":"f","qualifications":"TS","fileds":"Kỹ thuật vật liệu","undergrad_lec":"Công nghệ chế tạo máy","postgrad_lec":""}
+,
+{"TT":"51","name":"Khổng Trung Thắng","gender":"m","qualifications":"TS","fileds":"Công nghệ sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"52","name":"Trang Sĩ Trung","gender":"m","qualifications":"PGS","fileds":"Công nghệ sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"53","name":"Nguyễn Bảo","gender":"m","qualifications":"TS","fileds":"Sinh học tế bào phân tử - môi trường biển","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"54","name":"Nguyễn Thị Mỹ Hương","gender":"f","qualifications":"PGS","fileds":"Công nghệ sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"55","name":"Phạm Thu Thủy","gender":"f","qualifications":"TS","fileds":"Sinh học phân tử","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"56","name":"Phạm Thị Mai","gender":"f","qualifications":"Ths","fileds":"Di truyền học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":""}
+,
+{"TT":"57","name":"Đặng Thúy Bình","gender":"f","qualifications":"TS","fileds":"Sinh học biển","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"58","name":"Lê Phương Chung","gender":"m","qualifications":"Ths","fileds":"Công nghệ sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":""}
+,
+{"TT":"59","name":"Phạm Thị Minh Hải","gender":"f","qualifications":"TS","fileds":"Công nghệ sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"60","name":"Nguyễn Văn Duy","gender":"m","qualifications":"PGS","fileds":"Vi sinh vật học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"61","name":"Phạm Thị Minh Thu","gender":"f","qualifications":"TS","fileds":"Khoa học sinh học","undergrad_lec":"Công nghệ sinh học","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"62","name":"Bùi Chí Thành","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"63","name":"Phạm Thị Kim Ngoan","gender":"f","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"64","name":"Nguyễn Thanh Quỳnh Châu","gender":"f","qualifications":"ĐH","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"65","name":"Phạm Thị Thu Thúy","gender":"f","qualifications":"TS","fileds":"Kỹ thuật máy tính","undergrad_lec":"Công nghệ thông tin","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"66","name":"Nguyễn Thị Hương Lý","gender":"f","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"67","name":"Đỗ Như An","gender":"m","qualifications":"TS","fileds":"Toán học tính toán","undergrad_lec":"Công nghệ thông tin","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"68","name":"Đinh Đồng Lưỡng","gender":"m","qualifications":"TS","fileds":"Kỹ thuật máy tính","undergrad_lec":"Công nghệ thông tin","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"69","name":"Mai Cường Thọ","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"70","name":"Huỳnh Tuấn Anh","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Công nghệ thông tin","postgrad_lec":""}
+,
+{"TT":"71","name":"Mai Thị Tuyết Nga","gender":"f","qualifications":"TS","fileds":"Thực phẩm và dinh dưỡng","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"72","name":"Lê Thị Tưởng","gender":"f","qualifications":"TS","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"73","name":"Nguyễn Văn Tặng","gender":"m","qualifications":"TS","fileds":"Khoa học và công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"74","name":"Nguyễn Văn Minh","gender":"m","qualifications":"PGS","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"75","name":"Huỳnh Thị Ái Vân","gender":"f","qualifications":"Ths","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"76","name":"Trần Thanh Giang","gender":"f","qualifications":"Ths","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"77","name":"Phan Thị Khánh Vinh","gender":"f","qualifications":"TS","fileds":"Công nghệ thịt cá, sữa và lạnh đông","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"78","name":"Nguyễn Thị Hằng","gender":"f","qualifications":"Ths","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"79","name":"Nhâm Văn Điển","gender":"m","qualifications":"ĐH","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"80","name":"Võ Thị Ngọc Dung","gender":"f","qualifications":"ĐH","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"81","name":"Lê Xuân Thắng","gender":"m","qualifications":"Ths","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"82","name":"Đặng Trung Thành","gender":"m","qualifications":"TS","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"83","name":"Phan Xuân Minh Tuấn","gender":"m","qualifications":"Ths","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"84","name":"Lưu Hồng Phúc","gender":"m","qualifications":"TS","fileds":"An toàn vệ sinh thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"85","name":"Nguyễn Thuần Anh","gender":"f","qualifications":"PGS","fileds":"Độc chất học thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"86","name":"Trần Thị Mỹ Hạnh","gender":"f","qualifications":"TS","fileds":"Khoa học và Công nghệ thực phẩm nâng cao","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ chế biến thủy sản"}
+,
+{"TT":"87","name":"Trần Thị Bích Thủy","gender":"f","qualifications":"Ths","fileds":"Khoa học và công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"88","name":"Phan Thị Thanh Hiền","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"89","name":"Nguyễn Thị Vân","gender":"f","qualifications":"TS","fileds":"Khoa học sinh học biển ứng dụng","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"90","name":"Phạm Thị Đan Phượng","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"91","name":"Đỗ Thị Thanh Thủy","gender":"f","qualifications":"Ths","fileds":"Công nghệ sau thu hoạch","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"92","name":"Trần Thị Thanh Loan","gender":"f","qualifications":"ĐH","fileds":"Công nghệ thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"93","name":"Vũ Ngọc Bội","gender":"m","qualifications":"PGS","fileds":"Hóa sinh học","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ thực phẩm"}
+,
+{"TT":"94","name":"Đặng Thị Thu Hương","gender":"f","qualifications":"TS","fileds":"Khoa học thực phẩm","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":""}
+,
+{"TT":"95","name":"Bùi Trần Nữ Thanh Việt","gender":"f","qualifications":"TS","fileds":"Hóa học phân tử các hợp chất Polyme","undergrad_lec":"Công nghệ thực phẩm","postgrad_lec":"Công nghệ sau thu hoạch"}
+,
+{"TT":"96","name":"Lê Thị Bích Hằng","gender":"f","qualifications":"Ths","fileds":"Quản lý thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"97","name":"Nguyễn Đình Hưng","gender":"m","qualifications":"TS","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"98","name":"Huỳnh Thị Châu Phú","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật và khoa học tin học","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"99","name":"Bùi Thị Hồng Minh","gender":"f","qualifications":"Ths","fileds":"Tin học","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"100","name":"Nguyễn Đình Cường","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật thông tin và truyền thông","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"101","name":"Lê Hoàng Thanh","gender":"m","qualifications":"Ths","fileds":"Khoa học máy tính","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"102","name":"Cao Ngọc Trinh","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật thông tin và khoa học máy tính","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"103","name":"Đoàn Vũ Thịnh","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"104","name":"Lê Thị Thanh Nhàn","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật máy tính","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"105","name":"Nguyễn Hải Triều","gender":"m","qualifications":"Ths","fileds":"Cơ học và mô hình toán học","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"106","name":"Nguyễn Đức Thuần","gender":"m","qualifications":"TS","fileds":"Đảm bảo toán học cho máy tính và hệ thống tính toán","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"107","name":"Trần Minh Văn","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"108","name":"Hà Thị Thanh Ngà","gender":"f","qualifications":"Ths","fileds":"Quản lý thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"109","name":"Nguyễn Đình Hoàng Sơn","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"110","name":"Nguyễn Thủy Đoan Trang","gender":"f","qualifications":"Ths","fileds":"Tin học","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"111","name":"Nguyễn Khắc Cường","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"112","name":"Đàm Khánh Hữu Thể","gender":"m","qualifications":"Ths","fileds":"Tin học","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"113","name":"Phạm Văn Nam","gender":"m","qualifications":"Ths","fileds":"Thông tin - Viễn thông toàn cầu","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"114","name":"Trần Mạnh Khang","gender":"m","qualifications":"ĐH","fileds":"Công nghệ thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"115","name":"Nguyễn Mạnh Cương","gender":"m","qualifications":"Ths","fileds":"Quản lý thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"116","name":"Nguyễn Huỳnh Huy","gender":"m","qualifications":"ĐH","fileds":"Công nghệ Thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"117","name":"Cấn Thị Phượng","gender":"f","qualifications":"Ths","fileds":"Công nghệ Thông tin","undergrad_lec":"Hệ thống thông tin quản lý","postgrad_lec":""}
+,
+{"TT":"118","name":"Võ Thị Thùy Trang","gender":"f","qualifications":"TS","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"119","name":"Nguyễn Bích Hương Thảo","gender":"f","qualifications":"TS","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"120","name":"Nguyễn Văn Hương","gender":"m","qualifications":"TS","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"121","name":"Lê Thị Thanh Huệ","gender":"f","qualifications":"Ths","fileds":"Tài chính ứng dụng","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"122","name":"Mai Diễm Lan Hương","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"123","name":"Bùi Thị Thu Hà","gender":"f","qualifications":"Ths","fileds":"Kế toán - tài chính","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"124","name":"Phan Hồng Nhung","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"125","name":"Từ Mai Hoàng Phi","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"126","name":"Nguyễn Thị Bảo Ngọc","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"127","name":"Nguyễn Thị Lan Phương","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"128","name":"Nguyễn Thị Thùy Trang","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"129","name":"Nguyễn Thị Kim Anh","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"130","name":"Nguyễn Thị Hồng Nhung","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"131","name":"Ngô Xuân Ban","gender":"m","qualifications":"Ths","fileds":"Kế toán doanh nghiệp","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"132","name":"Bùi Mạnh Cường","gender":"m","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"133","name":"Đỗ Thị Ly","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"134","name":"Phạm Đình Tuấn","gender":"m","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"135","name":"Nguyễn Thị Thủy","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"136","name":"Vương Thị Khánh Chi","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"137","name":"Nguyễn Thị Thanh Hà","gender":"f","qualifications":"Ths","fileds":"Kế toán","undergrad_lec":"Kế toán","postgrad_lec":""}
+,
+{"TT":"138","name":"Vũ Kế Nghiệp","gender":"m","qualifications":"TS","fileds":"Khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":"Khai thác thủy sản"}
+,
+{"TT":"139","name":"Phạm Văn Thông","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":""}
+,
+{"TT":"140","name":"Nguyễn Trọng Lương","gender":"m","qualifications":"TS","fileds":"Khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":"Khai thác thủy sản"}
+,
+{"TT":"141","name":"Nguyễn Hữu Thanh","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":""}
+,
+{"TT":"142","name":"Tô Văn Phương","gender":"m","qualifications":"TS","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"143","name":"Nguyễn Ngọc Hạnh","gender":"m","qualifications":"Ths","fileds":"Khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":""}
+,
+{"TT":"144","name":"Trần Đức Phú","gender":"m","qualifications":"TS","fileds":"Nuôi cá biển và nghề cá biển","undergrad_lec":"Khai thác thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"145","name":"Nguyễn Quốc Khánh","gender":"m","qualifications":"TS","fileds":"Khoa học môi trường","undergrad_lec":"Khai thác thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"146","name":"Nguyễn Văn Nhuận","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":""}
+,
+{"TT":"147","name":"Nguyễn Thị Nghiêm Thùy","gender":"m","qualifications":"Ths","fileds":"Khai thác thủy sản","undergrad_lec":"Khai thác thủy sản","postgrad_lec":""}
+,
+{"TT":"148","name":"Vũ Như Tân","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khoa học hàng hải","postgrad_lec":""}
+,
+{"TT":"149","name":"Trần Đức Lượng","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Khoa học hàng hải","postgrad_lec":""}
+,
+{"TT":"150","name":"Nguyễn Thị Trâm Anh","gender":"f","qualifications":"TS","fileds":"Kinh tế công nghiệp","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":"Kinh tế phát triển"}
+,
+{"TT":"151","name":"Lê Thị Thanh Ngân","gender":"f","qualifications":"Ths","fileds":"Kinh tế công","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"152","name":"Nguyễn Thị Dung","gender":"f","qualifications":"Ths","fileds":"Kinh doanh thương mại","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"153","name":"Bùi Thu Hoài","gender":"f","qualifications":"Ths","fileds":"Kinh tế quốc tế và phát triển","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"154","name":"Bùi Nguyễn Phúc Thiên Chương","gender":"m","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"155","name":"Diệp Bích Ngân","gender":"f","qualifications":"Ths","fileds":"Tài chính thương mại quốc tế","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"156","name":"Nguyễn Thị Quỳnh Trang","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Kinh doanh thương mại","postgrad_lec":""}
+,
+{"TT":"157","name":"Nguyễn Văn Ngọc","gender":"m","qualifications":"TS","fileds":"Kinh tế và quản lý kinh tế quốc dân","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"158","name":"Phạm Hồng Mạnh","gender":"m","qualifications":"TS","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"159","name":"Đặng Hoàng Xuân Huy","gender":"m","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"160","name":"Trần Thùy Chi","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"161","name":"Huỳnh Thị Ngọc Diệp","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"162","name":"Bùi Bích Xuân","gender":"f","qualifications":"TS","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"163","name":"Lê Văn Tháp","gender":"m","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"164","name":"Nguyễn Thu Thủy","gender":"f","qualifications":"TS","fileds":"Kinh doanh và quản lý","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"165","name":"Cao Thị Hồng Nga","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"166","name":"Vũ Thị Hoa","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"167","name":"Tăng Thị Hiền","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"168","name":"Trần Thị Thu Hòa","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"169","name":"Hoàng Gia Trí Hải","gender":"m","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"170","name":"Nguyễn Thị Hải Anh","gender":"f","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"171","name":"Lê Kim Long","gender":"m","qualifications":"PGS","fileds":"Kinh tế và quản lý thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":"Kinh tế phát triển"}
+,
+{"TT":"172","name":"Nguyễn Ngọc Duy","gender":"m","qualifications":"TS","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"173","name":"Hoàng Thu Thủy","gender":"f","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"174","name":"Lê Ngọc Hương","gender":"f","qualifications":"TS","fileds":"Kinh tế nông nghiệp","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"175","name":"Lê Thị Huyền Trang","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"176","name":"Phạm Thế Anh","gender":"m","qualifications":"TS","fileds":"Kinh tế","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"177","name":"Nguyễn Thị Hồng Đào","gender":"f","qualifications":"TS","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"178","name":"Nguyễn Thị Mỹ Hạnh","gender":"f","qualifications":"Ths","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"179","name":"Phan Thị Kim Liên","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"180","name":"Nguyễn Tuấn","gender":"m","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"181","name":"Đặng Thị Tâm Ngọc","gender":"f","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"182","name":"Nguyễn Thị Hiển","gender":"f","qualifications":"TS","fileds":"Kinh tế học","undergrad_lec":"Kinh tế","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"183","name":"Nguyễn Văn Bảy","gender":"m","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Kinh tế","postgrad_lec":""}
+,
+{"TT":"184","name":"Phạm Thị Thanh Thủy","gender":"f","qualifications":"TS","fileds":"Kinh tế xã hội","undergrad_lec":"Kinh tế phát triển","postgrad_lec":"Kinh tế phát triển"}
+,
+{"TT":"185","name":"Phạm Thành Thái","gender":"m","qualifications":"TS","fileds":"Kinh tế phát triển","undergrad_lec":"Kinh tế phát triển","postgrad_lec":"Kinh tế phát triển"}
+,
+{"TT":"186","name":"Trương Ngọc Phong","gender":"m","qualifications":"Ths","fileds":"Chính sách công","undergrad_lec":"Kinh tế phát triển","postgrad_lec":""}
+,
+{"TT":"187","name":"Nguyễn Thị Kim Anh","gender":"f","qualifications":"PGS","fileds":"Kinh tế công nghiệp","undergrad_lec":"Kinh tế phát triển","postgrad_lec":"Kinh tế phát triển"}
+,
+{"TT":"188","name":"Vũ Thăng Long","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"189","name":"Trần Văn Hùng","gender":"m","qualifications":"Ths","fileds":"Cơ điện tử","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":""}
+,
+{"TT":"190","name":"Nguyễn Thiên Chương","gender":"m","qualifications":"TS","fileds":"Kỹ thuật điện tử và khoa học máy tính","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"191","name":"Nguyễn Văn Định","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật ô tô, máy kéo","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":""}
+,
+{"TT":"192","name":"Vũ Thị Nhài","gender":"f","qualifications":"Ths","fileds":"Kỹ thuật điều khiển và tự động hóa","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":""}
+,
+{"TT":"193","name":"Nguyễn Nam","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật Cơ điện tử","postgrad_lec":""}
+,
+{"TT":"194","name":"Đỗ Văn Tá","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí và tự động hóa","undergrad_lec":"Kỹ thuật cơ điện tử","postgrad_lec":""}
+,
+{"TT":"195","name":"Trần Doãn Hùng","gender":"m","qualifications":"TS","fileds":"Khoa học vật liệu","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"196","name":"Đặng Xuân Phương","gender":"m","qualifications":"PGS","fileds":"Kỹ thuật cơ khí và tự động","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"197","name":"Nguyễn Hữu Thật","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"198","name":"Nguyễn Văn Hân","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":""}
+,
+{"TT":"199","name":"Bùi Đức Tài","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":""}
+,
+{"TT":"200","name":"Vũ Ngọc Chiên","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":""}
+,
+{"TT":"201","name":"Dương Đình Hảo","gender":"m","qualifications":"TS","fileds":"Công nghệ vật liệu","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":""}
+,
+{"TT":"202","name":"Lê Nguyễn Anh Vũ","gender":"m","qualifications":"TS","fileds":"Cơ khí","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"203","name":"Dương Tử Tiên","gender":"m","qualifications":"TS","fileds":"Thiết bị và các bộ phận năng lượng trong tàu","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"204","name":"Mai Nguyễn Trần Thành","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật cơ khí","postgrad_lec":""}
+,
+{"TT":"205","name":"Phạm Thanh Nhựt","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí và tự động","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":"Kỹ thuật tàu thủy"}
+,
+{"TT":"206","name":"Huỳnh Lê Hồng Thái","gender":"m","qualifications":"TS","fileds":"Kết cấu máy và thiết bị","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"207","name":"Phùng Minh Lộc","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"208","name":"Nguyễn Thái Vũ","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":""}
+,
+{"TT":"209","name":"Lê Xuân Chí","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":""}
+,
+{"TT":"210","name":"Phạm Trọng Hợp","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":""}
+,
+{"TT":"211","name":"Quách Hoài Nam","gender":"m","qualifications":"TS","fileds":"Thiết bị và các bộ phận năng lượng trong tàu","undergrad_lec":"Kỹ thuật cơ khí động lực","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"212","name":"Ngô Đăng Nghĩa","gender":"m","qualifications":"PGS","fileds":"Công nghệ sản phẩm từ thịt và cá","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":"Công nghệ sinh học"}
+,
+{"TT":"213","name":"Nguyễn Thị Ngọc Thanh","gender":"f","qualifications":"Ths","fileds":"Khoa học môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"214","name":"Ngô Phương Linh","gender":"f","qualifications":"Ths","fileds":"Môi trường (chuyên ngành: Biến đổi khí hậu)","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"215","name":"Trần Thanh Tùng","gender":"m","qualifications":"ĐH","fileds":"Môi trường đô thị và khu công nghiệp","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"216","name":"Trần Thanh Thư","gender":"f","qualifications":"Ths","fileds":"Quản lý môi trường đô thị","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"217","name":"Lê Nhật Thành","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"218","name":"Nguyễn Đắc Kiên","gender":"m","qualifications":"Ths","fileds":"Khoa học môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"219","name":"Trần Thị Tâm","gender":"f","qualifications":"Ths","fileds":"Khoa học môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"220","name":"Trương Trọng Danh","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"221","name":"Nguyễn Thanh Sơn","gender":"m","qualifications":"Ths","fileds":"Quản lý môi trường","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"222","name":"Bùi Vĩnh Đại","gender":"m","qualifications":"Ths","fileds":"Quản lý kinh tế biển và biến đổi khí hậu","undergrad_lec":"Kỹ thuật môi trường","postgrad_lec":""}
+,
+{"TT":"223","name":"Nguyễn Hữu Nghĩa","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"224","name":"Lê Như Chính","gender":"m","qualifications":"Ths","fileds":"Máy và thiết bị nhiệt lạnh","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"225","name":"Trần Thị Bảo Tiên","gender":"f","qualifications":"Ths","fileds":"Công nghệ nhiệt","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"226","name":"Nguyễn Trọng Quỳnh","gender":"m","qualifications":"Ths","fileds":"Năng lượng tái tạo","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"227","name":"Nguyễn Văn Phúc","gender":"m","qualifications":"Ths","fileds":"Quản lý năng lượng","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"228","name":"Đặng Nhật Khánh","gender":"m","qualifications":"ĐH","fileds":"Công nghệ nhiệt - lạnh","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"229","name":"Nguyễn Đình Khương","gender":"m","qualifications":"Ths","fileds":"Công nghệ kỹ thuật nhiệt","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"230","name":"Lương Đức Vũ","gender":"m","qualifications":"ĐH","fileds":"Công nghệ chế biến thủy sản\n(Đang học CH chuyên ngành KTNL)","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"231","name":"Nguyễn Văn Quyết","gender":"m","qualifications":"Ths","fileds":"Công nghệ nhiệt lạnh","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"232","name":"Huỳnh Văn Thạo","gender":"m","qualifications":"ĐH","fileds":"Công nghệ kỹ thuật nhiệt","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"233","name":"Lê Đức Tài","gender":"m","qualifications":"ĐH","fileds":"Kỹ thuật Nhiệt lạnh","undergrad_lec":"Kỹ thuật nhiệt","postgrad_lec":""}
+,
+{"TT":"234","name":"Phan Văn Nhữ","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"235","name":"Hoàng Văn Thọ","gender":"m","qualifications":"TS","fileds":"Kỹ thuật cơ khí và kỹ thuật ô tô","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":"Kỹ thuật ô tô"}
+,
+{"TT":"236","name":"Hồ Đức Tuấn","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"237","name":"Đoàn Phước Thọ","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"238","name":"Đặng Hồng Đông","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"239","name":"Nguyễn Thanh Tuấn","gender":"m","qualifications":"TS","fileds":"Kết cấu máy và thiết bị ô tô","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":"Kỹ thuật ô tô"}
+,
+{"TT":"240","name":"Nguyễn Văn Thuần","gender":"m","qualifications":"TS","fileds":"Phần tử hữu hạn","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":"Kỹ thuật ô tô"}
+,
+{"TT":"241","name":"Huỳnh Trọng Chương","gender":"m","qualifications":"Ths","fileds":"Khai thác và bảo trì ô tô","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"242","name":"Phạm Tạo","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí động lực","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"243","name":"Nguyễn Phú Đông","gender":"m","qualifications":"Ths","fileds":"Máy và thiết bị ô tô","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"244","name":"Lê Công Lập","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật cơ khí và tự động hóa (1)\nQuản trị kinh doanh (2)","undergrad_lec":"Kỹ thuật ô tô","postgrad_lec":""}
+,
+{"TT":"245","name":"Trần Gia Thái","gender":"m","qualifications":"PGS","fileds":"Thiết bị và các bộ phận năng lượng trong tàu","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":"Kỹ thuật tàu thủy"}
+,
+{"TT":"246","name":"Huỳnh Văn Vũ","gender":"m","qualifications":"TS","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":"Kỹ thuật tàu thủy"}
+,
+{"TT":"247","name":"Huỳnh Văn Nhu","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":""}
+,
+{"TT":"248","name":"Trần Đình Tứ","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật hệ thống và kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":""}
+,
+{"TT":"249","name":"Đỗ Quang Thắng","gender":"m","qualifications":"TS","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":"Kỹ thuật tàu thủy"}
+,
+{"TT":"250","name":"Lê Đình Ngọc Cận","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":""}
+,
+{"TT":"251","name":"Nguyễn Chí Thanh","gender":"m","qualifications":"ĐH","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":""}
+,
+{"TT":"252","name":"Nguyễn Văn Đạt","gender":"m","qualifications":"TS","fileds":"Thiết bị và các bộ phận năng lượng trong tàu","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":"Kỹ thuật tàu thủy"}
+,
+{"TT":"253","name":"Trương Đắc Dũng","gender":"m","qualifications":"TS","fileds":"Kỹ thuật tàu thủy","undergrad_lec":"Kỹ thuật tàu thủy","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"254","name":"Trần Hưng Trà","gender":"m","qualifications":"PGS","fileds":"Khoa học vật liệu","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":"Kỹ thuật cơ khí động lực"}
+,
+{"TT":"255","name":"Nguyễn Thắng Xiêm","gender":"m","qualifications":"TS","fileds":"Khoa học vật liệu","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":"Kỹ thuật cơ khí"}
+,
+{"TT":"256","name":"Phạm Tuấn Anh","gender":"m","qualifications":"Ths","fileds":"Công nghệ nano","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"257","name":"Lê Thanh Cao","gender":"m","qualifications":"Ths","fileds":"Xây dựng công trình dân dụng và công nghiệp","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"258","name":"Phạm Bá Linh","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"259","name":"Bạch Văn Sỹ","gender":"m","qualifications":"Ths","fileds":"Xây dựng đường ô tô và thành phố","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"260","name":"Trần Quang Huy","gender":"m","qualifications":"TS","fileds":"Xây dựng đường ô tô và thành phố","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"261","name":"Lê Thái Sơn","gender":"m","qualifications":"Ths","fileds":"Xây dựng dân dụng và môi trường","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"262","name":"Phạm Xuân Tùng","gender":"m","qualifications":"Ths","fileds":"Xây dựng công trình dân dụng và công nghiệp","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"263","name":"Đặng Quốc Mỹ","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật và xây dựng môi trường","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"264","name":"Trần Quang Duy","gender":"m","qualifications":"Ths","fileds":"Xây dựng đường ô tô và thành phố","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"265","name":"Lê Quốc Thái","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật công chánh","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"266","name":"Hồ Chí Hân","gender":"m","qualifications":"Ths","fileds":"Công nghệ kỹ thuật xây dựng","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"267","name":"Trần Quốc Việt","gender":"m","qualifications":"Ths","fileds":"Xây dựng","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"268","name":"Nguyễn Hùng Việt","gender":"m","qualifications":"Ths","fileds":"Xây dựng","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"269","name":"Nguyễn Hữu Diệu","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật xây dựng công trình dân dụng và công nghiệp","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"270","name":"Trương Thành Chung","gender":"m","qualifications":"Ths","fileds":"Xây dựng và môi trường","undergrad_lec":"Kỹ thuật xây dựng","postgrad_lec":""}
+,
+{"TT":"271","name":"Nguyễn Thị Lan","gender":"f","qualifications":"Ths","fileds":"Luật kinh tế","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"272","name":"Lê Việt Phương","gender":"m","qualifications":"TS","fileds":"Luật kinh tế","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"273","name":"Lê Hoàng Phương Thủy","gender":"f","qualifications":"Ths","fileds":"Luật kinh tế","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"274","name":"Trần Thị Mai","gender":"f","qualifications":"Ths","fileds":"Luật kinh tế","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"275","name":"Nguyễn Sơn Bách","gender":"m","qualifications":"Ths","fileds":"Kinh tế thị trường, thể chế tiết kiệm và quản trị di sản","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"276","name":"Nguyễn Huyền Cát Anh","gender":"f","qualifications":"Ths","fileds":"Luật quốc tế","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"277","name":"Phạm Thị Châu Hồng","gender":"f","qualifications":"TS","fileds":"Luật học","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"278","name":"Nguyễn Thị Hà Trang","gender":"f","qualifications":"Ths","fileds":"Luật kinh doanh so sánh","undergrad_lec":"Luật","postgrad_lec":""}
+,
+{"TT":"279","name":"Hồ Huy Tựu","gender":"m","qualifications":"PGS","fileds":"Marketing","undergrad_lec":"Marketing","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"280","name":"Lê Thị Hồng Nhung","gender":"f","qualifications":"Ths","fileds":"Quản trị và Marketing","undergrad_lec":"Marketing","postgrad_lec":""}
+,
+{"TT":"281","name":"Nguyễn Thị Mỹ Thanh","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Marketing","postgrad_lec":""}
+,
+{"TT":"282","name":"Võ Văn Diễn","gender":"m","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Marketing","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"283","name":"Nguyễn Hữu Khôi","gender":"m","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Marketing","postgrad_lec":""}
+,
+{"TT":"284","name":"Nguyễn Tiến Thông","gender":"m","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Marketing","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"285","name":"Huỳnh Cát Duyên","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Marketing","postgrad_lec":""}
+,
+{"TT":"286","name":"Lê Phúc Loan","gender":"f","qualifications":"Ths","fileds":"Khoa học quản trị","undergrad_lec":"Marketing","postgrad_lec":""}
+,
+{"TT":"287","name":"Phan Văn Cường","gender":"m","qualifications":"TS","fileds":"Vật lý và công nghệ","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"288","name":"Phan Nhật Nguyên","gender":"m","qualifications":"Ths","fileds":"Vật lý Quang - Quang phổ","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"289","name":"Nguyễn Quang San","gender":"m","qualifications":"Ths","fileds":"Vật lý","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"290","name":"Phan Nguyễn Đức Dược","gender":"m","qualifications":"Ths","fileds":"Vật lý lý thuyết và vật lý toán","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"291","name":"Nguyễn Ngọc Minh Trâm","gender":"m","qualifications":"Ths","fileds":"Vật lý","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"292","name":"Trương Trọng Ánh","gender":"m","qualifications":"Ths","fileds":"Cơ khí tàu thuyền thủy sản","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"293","name":"Nguyễn Mai Trung","gender":"m","qualifications":"Ths","fileds":"Kỹ thuật khai thác thủy sản","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"294","name":"Nguyễn Đại Hùng","gender":"m","qualifications":"Ths","fileds":"Hóa phân tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"295","name":"Phạm Anh Đạt","gender":"m","qualifications":"ĐH","fileds":"Hóa học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"296","name":"Hoàng Thị Thu Thảo","gender":"f","qualifications":"Ths","fileds":"Hóa hữ cơ","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"297","name":"Lê Mỹ Kim Vương","gender":"f","qualifications":"Ths","fileds":"Hóa phân tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"298","name":"Nguyễn Đình Ái","gender":"m","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"299","name":"Phạm Gia Hưng","gender":"m","qualifications":"TS","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":"Công nghệ thông tin"}
+,
+{"TT":"300","name":"Thái Bảo Khánh","gender":"m","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"301","name":"Nguyễn Thị Hà","gender":"f","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"302","name":"Nguyễn Thị Thuỳ Dung","gender":"f","qualifications":"Ths","fileds":"Quản lý nguồn lợi thủy sản và tự nhiên","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"303","name":"Nguyễn Cảnh Hùng","gender":"m","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"304","name":"Trần Quốc Vương","gender":"m","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"305","name":"Huỳnh Thị Thúy Lan","gender":"f","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"306","name":"Nguyễn Quang Tuấn","gender":"m","qualifications":"Ths","fileds":"Đại số và lý thuyết số","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"307","name":"Lê Thị Thùy Trang","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy môn toán","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"308","name":"Nguyễn Thị Minh Ngọc","gender":"f","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"309","name":"Mai Thị Phương","gender":"f","qualifications":"Ths","fileds":"Toán giải tích","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"310","name":"Nguyễn Duy Sự","gender":"m","qualifications":"TS","fileds":"Khoa học giáo dục","undergrad_lec":"Môn chung","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"311","name":"Phạm Thị Minh Châu","gender":"f","qualifications":"Ths","fileds":"Giáo dục hán ngữ quốc tế","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"312","name":"Nguyễn Thị Diệu Phương","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ học và ngôn ngữ học ứng dụng","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"313","name":"Lê Thị Bảo Châu","gender":"f","qualifications":"TS","fileds":"Giảng dạy Hoa ngữ","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"314","name":"Phan Minh Đức","gender":"m","qualifications":"Ths","fileds":"Quản lý giáo dục","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"315","name":"Nguyễn Khánh Linh","gender":"f","qualifications":"ĐH","fileds":"Ngôn ngữ nhật","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"316","name":"Phạm Thị Hoa","gender":"f","qualifications":"TS","fileds":"Khoa học giáo dục","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"317","name":"Nguyễn Hữu Tâm","gender":"m","qualifications":"TS","fileds":"Triết học","undergrad_lec":"Môn chung","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"318","name":"Ngô Văn An","gender":"m","qualifications":"Ths","fileds":"Chủ nghĩa xã hội khoa học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"319","name":"Phạm Quang Huy","gender":"m","qualifications":"Ths","fileds":"Kinh tế chính trị","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"320","name":"Đỗ Văn Đạo","gender":"m","qualifications":"Ths","fileds":"Kinh tế chính trị","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"321","name":"Trương Thị Xuân","gender":"f","qualifications":"Ths","fileds":"Lịch sử Đảng Cộng sản Việt Nam","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"322","name":"TrỊnh Công Tráng","gender":"m","qualifications":"Ths","fileds":"Triết học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"323","name":"Vũ Thị Bích Hạnh","gender":"f","qualifications":"Ths","fileds":"Kinh tế chính trị","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"324","name":"Trần Thị Tân","gender":"f","qualifications":"Ths","fileds":"Triết học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"325","name":"Trần Trọng Đạo","gender":"m","qualifications":"TS","fileds":"Lịch sử","undergrad_lec":"Môn chung","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"326","name":"Nguyễn Văn Hạnh","gender":"m","qualifications":"Ths","fileds":"Triết học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"327","name":"Đinh Thị Sen","gender":"f","qualifications":"Ths","fileds":"Tâm lý học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"328","name":"Trần Thị Việt Hoài","gender":"f","qualifications":"Ths","fileds":"Xã hội học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"329","name":"Lê Thị Thanh Ngà","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"330","name":"Nguyễn Thị Thanh Nga","gender":"f","qualifications":"Ths","fileds":"Văn hóa học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"331","name":"Huỳnh Phương Duyên","gender":"f","qualifications":"Ths","fileds":"Xã hội học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"332","name":"Vũ Đặng Hạ Quyên","gender":"f","qualifications":"Ths","fileds":"Sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"333","name":"Nguyễn Thị Hải Thanh","gender":"f","qualifications":"TS","fileds":"Sinh học biển","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"334","name":"Lê Nhã Uyên","gender":"f","qualifications":"Ths","fileds":"Sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"335","name":"Văn Hồng Cầm","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"336","name":"Nguyễn Công Minh","gender":"m","qualifications":"TS","fileds":"Công nghệ chế biến thủy sản","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"337","name":"Nguyễn Thị Chính","gender":"f","qualifications":"Ths","fileds":"Công nghệ sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"338","name":"Khúc Thị An","gender":"f","qualifications":"Ths","fileds":"Sinh học/Sinh trắc học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"339","name":"Nguyễn Thị Kim Cúc","gender":"f","qualifications":"Ths","fileds":"Vi sinh vật học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"340","name":"Nguyễn Thị Anh Thư","gender":"f","qualifications":"TS","fileds":"Công nghệ sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"341","name":"Nguyễn Thị Như Thường","gender":"f","qualifications":"TS","fileds":"Công nghệ sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"342","name":"Phạm Thị Lan","gender":"f","qualifications":"Ths","fileds":"Công nghệ sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"343","name":"Nguyễn Thị Hồng Mai","gender":"f","qualifications":"Ths","fileds":"Công nghệ sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"344","name":"Trần Nguyễn Vân Nhi","gender":"f","qualifications":"Ths","fileds":"Hóa lý thuyết và hóa lý","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"345","name":"Lê Hoàng Thị Mỹ Dung","gender":"f","qualifications":"TS","fileds":"Dinh dưỡng học nghề cá","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"346","name":"Phạm Phương Linh","gender":"f","qualifications":"Ths","fileds":"Sinh học/Sinh trắc học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"347","name":"Đinh Văn Khương","gender":"m","qualifications":"TS","fileds":"Sinh học (Sinh thái học môi trường)","undergrad_lec":"Môn chung","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"348","name":"Hứa Thị Ngọc Dung","gender":"f","qualifications":"Ths","fileds":"Vi sinh vật trong thực phẩm","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"349","name":"Vũ Thị Thùy Minh","gender":"f","qualifications":"TS","fileds":"Môi trường","undergrad_lec":"Môn chung","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"350","name":"Trần Thanh Tâm","gender":"m","qualifications":"TS","fileds":"Sinh học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"351","name":"Võ Như Nam","gender":"m","qualifications":"CĐ","fileds":"Khoa học quân sự","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"352","name":"Trịnh Đức Minh","gender":"m","qualifications":"ĐH","fileds":"Giáo dục thể chất - quốc phòng","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"353","name":"Bùi Thanh Tuấn","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản\nGiáo dục QP-AN (ĐHB2)","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"354","name":"Nguyễn Văn Tiến","gender":"m","qualifications":"ĐH","fileds":"Giáo dục quốc phòng an ninh","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"355","name":"Lê Dũng Hoan","gender":"m","qualifications":"ĐH","fileds":"Giáo dục quốc phòng an ninh","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"356","name":"Phạm Tiến Khoa","gender":"m","qualifications":"ĐH","fileds":"Công nghệ kỹ thuật ô tô\nGiáo dục QP-AN (ĐHB2)","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"357","name":"Phan Ngọc Phúc","gender":"m","qualifications":"ĐH","fileds":"Quốc phòng","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"358","name":"Cao Mạnh Đức","gender":"m","qualifications":"ĐH","fileds":"Giáo dục Quốc phòng - An ninh","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"359","name":"Nguyễn Thị Hạnh","gender":"m","qualifications":"ĐH","fileds":"Giáo dục Quốc phòng - An ninh","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"360","name":"Nguyễn Hồ Phong","gender":"m","qualifications":"Ths","fileds":"Giáo dục thể chất","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"361","name":"Trần Văn Tự","gender":"m","qualifications":"ĐH","fileds":"Giáo dục thể chất","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"362","name":"Trương Hoài Trung","gender":"m","qualifications":"TS","fileds":"Giáo dục học","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"363","name":"Giang Thị Thu Trang","gender":"f","qualifications":"Ths","fileds":"Giáo dục thể chất","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"364","name":"Hồ Thanh Nhã","gender":"m","qualifications":"ĐH","fileds":"Huấn luyện thể thao","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"365","name":"Mai Thị Nụ","gender":"f","qualifications":"Ths","fileds":"Khoa học giáo dục","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"366","name":"Lưu Mai Hoa","gender":"f","qualifications":"TS","fileds":"Lịch sử","undergrad_lec":"Môn chung","postgrad_lec":""}
+,
+{"TT":"367","name":"Nguyễn Trọng Tiến","gender":"m","qualifications":"ĐH","fileds":"Chỉ huy - tham mưu quân sự","undergrad_lec":"","postgrad_lec":""}
+,
+{"TT":"368","name":"Bùi Giang Hưng","gender":"m","qualifications":"TS","fileds":"Lịch sử và Lý luận về Nhà nước và pháp luật","undergrad_lec":"","postgrad_lec":""}
+,
+{"TT":"369","name":"Nguyễn Anh Tú","gender":"m","qualifications":"Ths","fileds":"Giáo dục thể chất","undergrad_lec":"","postgrad_lec":""}
+,
+{"TT":"370","name":"Nguyễn Ánh Dương","gender":"m","qualifications":"ĐH","fileds":"Giáo dục quốc phòng an ninh","undergrad_lec":"","postgrad_lec":""}
+,
+{"TT":"371","name":"Nguyễn Văn Thắng","gender":"m","qualifications":"ĐH","fileds":"Giáo dục quốc phòng an ninh","undergrad_lec":"","postgrad_lec":""}
+,
+{"TT":"372","name":"Lê Hoàng Duy Thuần","gender":"m","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng Anh (TESOL International)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"373","name":"Ngô Quỳnh Hoa","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"374","name":"Bùi Thị Ngọc Oanh","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh (TESOL)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"375","name":"Trần Thị Minh Khánh","gender":"f","qualifications":"TS","fileds":"Ngôn ngữ học ứng dụng","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"376","name":"Nguyễn Trọng Lý","gender":"m","qualifications":"Ths","fileds":"Công nghệ thông tin và truyền thông trong giáo dục","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"377","name":"Trần Thị Cúc","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"378","name":"Nguyễn Phan Quỳnh Thư","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh (TESOL)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"379","name":"Lê Thị Thu Nga","gender":"f","qualifications":"Ths","fileds":"Khoa học giảng dạy tiếng anh như một ngôn ngữ","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"380","name":"Trần Thị Thu Trang","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"381","name":"Đặng Hoàng Thi","gender":"m","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"382","name":"Đỗ Vũ Hoàng Tâm","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"383","name":"Nguyễn Hoàng Hồ","gender":"m","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh (TESOL)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"384","name":"Võ Nguyễn Hồng Lam","gender":"f","qualifications":"TS","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"385","name":"Hoàng Công Bình","gender":"m","qualifications":"TS","fileds":"Ngôn ngữ học","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"386","name":"Nguyễn Thị Ngân","gender":"f","qualifications":"TS","fileds":"Nghiên cứu văn hóa trong giáo dục","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"387","name":"Phạm Thị Kim Uyên","gender":"f","qualifications":"Ths","fileds":"Giảng dạy tiếng anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"388","name":"Lê Cao Hoàng Hà","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh (TESOL)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"389","name":"Trần Thị Thúy Quỳnh","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng anh (TESOL)","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"390","name":"Đặng Kiều Diệp","gender":"f","qualifications":"Ths","fileds":"Lý luận và phương pháp giảng dạy tiếng Anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"391","name":"Phạm Thị Hải Trang","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"392","name":"Hồ Yến Nhi","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ học ứng dụng","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"393","name":"Bùi Vân Anh","gender":"f","qualifications":"Ths","fileds":"Ngô ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"394","name":"Nguyễn Thị Thiên Lý","gender":"f","qualifications":"Ths","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"395","name":"Võ Hoàng Như Nhu","gender":"f","qualifications":"ĐH","fileds":"Ngôn ngữ anh","undergrad_lec":"Ngôn ngữ Anh","postgrad_lec":""}
+,
+{"TT":"396","name":"Trương Thị Mai Hương","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"397","name":"Lê Minh Hoàng","gender":"m","qualifications":"PGS","fileds":"Thủy sản và hải dương học","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"398","name":"Trương Thị Bích Hồng","gender":"f","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"399","name":"Nguyễn Đình Huy","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"400","name":"Bành Thị Quyên Quyên","gender":"f","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"401","name":"Nguyễn Tấn Sỹ","gender":"m","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"402","name":"Hoàng Thị Thanh","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"403","name":"Nguyễn Thị Thúy","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"404","name":"Mai Như Thủy","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"405","name":"Trần Thị Lê Trang","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"406","name":"Phạm Thị Anh","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"407","name":"Lục Minh Diệp","gender":"m","qualifications":"TS","fileds":"Nuôi cá biển và nghề cá biển","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"408","name":"Trần Văn Dũng","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"409","name":"Vũ Trọng Đại","gender":"m","qualifications":"Ths","fileds":"Phát triển duyên hải bền vững","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"410","name":"Phạm Đức Hùng","gender":"m","qualifications":"TS","fileds":"Môi trường và nông nghiệp","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"411","name":"Phạm Thị Khanh","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"412","name":"Đàm Bá Long","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"413","name":"Ngô Văn Mạnh","gender":"m","qualifications":"TS","fileds":"Nuôi thủy sản nước mặn, lợ","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"414","name":"Nguyễn Văn Minh","gender":"m","qualifications":"TS","fileds":"Dinh dưỡng và sinh học phân tử","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"415","name":"Đoàn Xuân Nam","gender":"m","qualifications":"Ths","fileds":"Phát triển ven bờ","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"416","name":"Lương Công Trung","gender":"m","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"417","name":"Phùng Thế Trung","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng và quản lý nguồn lợi thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"418","name":"Lê Anh Tuấn","gender":"m","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"419","name":"Lê Thành Cường","gender":"m","qualifications":"Ths","fileds":"Khoa học biển","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"420","name":"Nguyễn Thị Thùy Giang","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"421","name":"Phạm Thị Hạnh","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"422","name":"Phạm Quốc Hùng","gender":"m","qualifications":"PGS","fileds":"Nuôi thủy sản nước mặn, lợ","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"423","name":"Tôn Nữ Mỹ Nga","gender":"f","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"424","name":"Mai Đức Thao","gender":"m","qualifications":"Ths","fileds":"Sinh học biển","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"425","name":"Phan Văn Út","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":""}
+,
+{"TT":"426","name":"Trần Vĩ Hích","gender":"m","qualifications":"TS","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Nuôi trồng thủy sản","postgrad_lec":"Nuôi trồng thủy sản"}
+,
+{"TT":"427","name":"Cái Ngọc Bảo Anh","gender":"m","qualifications":"TS","fileds":"Nuôi cá biển và nghề cá biển","undergrad_lec":"Quản lý thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"428","name":"Nguyễn Văn Quỳnh Bôi","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng và quản lý nguồn lợi thủy sản","undergrad_lec":"Quản lý thủy sản","postgrad_lec":""}
+,
+{"TT":"429","name":"Trần Văn Phước","gender":"m","qualifications":"Ths","fileds":"Nuôi trồng thủy sản","undergrad_lec":"Quản lý thủy sản","postgrad_lec":""}
+,
+{"TT":"430","name":"Nguyễn Phong Hải","gender":"m","qualifications":"TS","fileds":"Khoa học sinh học dưới nước","undergrad_lec":"Quản lý thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"431","name":"Nguyễn Y Vang","gender":"m","qualifications":"Ths","fileds":"Quản lý hệ sinh thái biển và biến đổi khí hậu","undergrad_lec":"Quản lý thủy sản","postgrad_lec":""}
+,
+{"TT":"432","name":"Nguyễn Lâm Anh","gender":"m","qualifications":"TS","fileds":"Nuôi trồng thủy sản và nghề cá","undergrad_lec":"Quản lý thủy sản","postgrad_lec":"Quản lý thủy sản"}
+,
+{"TT":"433","name":"Trần Văn Hào","gender":"m","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Quản lý thủy sản","postgrad_lec":""}
+,
+{"TT":"434","name":"Đỗ Thị Thanh Vinh","gender":"f","qualifications":"PGS","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":"Quản lý kinh tế"}
+,
+{"TT":"435","name":"Ninh Thị Kim Anh","gender":"f","qualifications":"Ths","fileds":"Kinh tế quản lý nghề cá","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":""}
+,
+{"TT":"436","name":"Đoàn Nguyễn Khánh Trân","gender":"f","qualifications":"Ths","fileds":"Quản trị dịch vụ du lịch và lữ hành","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":""}
+,
+{"TT":"437","name":"Lê Bá Quỳnh Châu","gender":"f","qualifications":"Ths","fileds":"Master 1: Ngân hàng - Kiểm tra - Tài chính\nMaster 2: Hệ thống thông tin và quản lý doanh nghiệp","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":""}
+,
+{"TT":"438","name":"Nguyễn Thanh Quảng","gender":"m","qualifications":"Ths","fileds":"Quản trị dịch vụ du lịch và lữ hành","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":""}
+,
+{"TT":"439","name":"Lê Trần Phúc","gender":"m","qualifications":"Ths","fileds":"Quản trị du lịch và khách sạn","undergrad_lec":"Quản trị dịch vụ du lịch và lữ hành","postgrad_lec":""}
+,
+{"TT":"440","name":"Nguyễn Thị Ý Vy","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"441","name":"Lê Chí Công","gender":"m","qualifications":"PGS","fileds":"Quản lý kinh tế (kinh tế du lịch)","undergrad_lec":"Quản trị khách sạn","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"442","name":"Nguyễn Thị Huyền Thương","gender":"f","qualifications":"Ths","fileds":"Quản trị khách sạn quốc tế","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"443","name":"Nguyễn Thị Hồng Trâm","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh du lịch và khách sạn","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"444","name":"Tạ Thị Vân Chi","gender":"f","qualifications":"Ths","fileds":"Du lịch quốc tế và quản lý khách sạn nhà hàng","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"445","name":"Đào Anh Thư","gender":"f","qualifications":"Ths","fileds":"Truyền thông kinh doanh quốc tế","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"446","name":"Nguyễn Khánh Văn","gender":"m","qualifications":"Ths","fileds":"Quản trị dịch vụ khách hàng","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"447","name":"Đặng Thị Phước Toàn","gender":"f","qualifications":"Ths","fileds":"Quản trị quốc tế","undergrad_lec":"Quản trị khách sạn","postgrad_lec":""}
+,
+{"TT":"448","name":"Phan Thị Xuân Hương","gender":"f","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"449","name":"Mai Thị Linh","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"450","name":"Quách Thị Khánh Ngọc","gender":"f","qualifications":"PGS","fileds":"Kinh tế tài nguyên và môi trường","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"451","name":"Hà Việt Hùng","gender":"m","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"452","name":"Lê Hồng Lam","gender":"m","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"453","name":"Phạm Thị Thanh Bình","gender":"f","qualifications":"Ths","fileds":"Kinh tế thủy sản","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"454","name":"Võ Đình Quyết","gender":"m","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"455","name":"Trần Thị Ái Cẩm","gender":"f","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":"Quản trị kinh doanh"}
+,
+{"TT":"456","name":"Đỗ Thùy Trinh","gender":"f","qualifications":"Ths","fileds":"Quản trị nhân sự","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"457","name":"Nguyễn Thị Cẩm Tú","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"458","name":"Huỳnh Thị Thanh Thúy","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"459","name":"Võ Văn Cần","gender":"m","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"460","name":"Huỳnh Thị Như Thảo","gender":"f","qualifications":"Ths","fileds":"Quản trị kinh doanh","undergrad_lec":"Quản trị kinh doanh","postgrad_lec":""}
+,
+{"TT":"461","name":"Nguyễn Thị Nga","gender":"f","qualifications":"TS","fileds":"Quản trị kinh doanh","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"462","name":"Nguyễn Thành Cường","gender":"m","qualifications":"TS","fileds":"Kinh tế tài chính - ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"463","name":"Chu Thị Lê Dung","gender":"f","qualifications":"Ths","fileds":"Kinh doanh tài chính","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"464","name":"Nguyễn Thị Liên Hương","gender":"f","qualifications":"Ths","fileds":"Kinh tế tài chính - ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"465","name":"Lê Thị Thùy Dương","gender":"f","qualifications":"Ths","fileds":"Tài chính","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"466","name":"Phạm Thị Phương Uyên","gender":"f","qualifications":"Ths","fileds":"Chính sách công","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"467","name":"Hoàng Văn Tuấn","gender":"m","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"468","name":"Nguyễn Hữu Mạnh","gender":"m","qualifications":"TS","fileds":"Tài chính","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"469","name":"Phan Thị Lệ Thúy","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"470","name":"Phan Thị Khánh Trang","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"471","name":"Hoàng Thị Dự","gender":"f","qualifications":"Ths","fileds":"Tài chính ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"472","name":"Nguyễn Thị Kim Dung","gender":"f","qualifications":"Ths","fileds":"Tài chính","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+,
+{"TT":"473","name":"Phạm Khánh Thụy Anh","gender":"f","qualifications":"Ths","fileds":"Tài chính - Ngân hàng","undergrad_lec":"Tài chính - Ngân hàng","postgrad_lec":""}
+
+]
