@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sinhvienfx.FXMLController">
+   <children>
+      <Label layoutX="80.0" fx:id= "titlew" layoutY="47.0"  text="Thêm SV" />
+      <Label layoutX="80.0" layoutY="82.0" text="Mã SV" />
+      <Label layoutX="79.0" layoutY="117.0" text="Họ tên" />
+      <Label layoutX="78.0" layoutY="153.0" text="Năm sinh" />
+      <TextField fx:id="txtMaSV" layoutX="163.0" layoutY="78.0" />
+      <TextField fx:id="txtName" layoutX="163.0" layoutY="113.0" />
+      <TextField fx:id="txtDob" layoutX="164.0" layoutY="149.0" />
+      <Button layoutX="261.0" layoutY="207.0" mnemonicParsing="false" onAction="#Add" text="add" />
+      <TextArea fx:id="textArea" layoutX="345.0" layoutY="35.0" prefHeight="143.0" prefWidth="200.0" />
+      <Button layoutX="367.0" layoutY="207.0" mnemonicParsing="false" onAction="#Reload" text="reload" />
+      <Button layoutX="478.0" layoutY="207.0" mnemonicParsing="false" onAction="#Save" text="save" />
+   </children>
+
+</AnchorPane>
