@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane  hgap="5" vgap="5" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="caro5x5.FXMLController">
+
+    <!-- <Button fx:id="btn00" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn01" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn02" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn03" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn04" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    
+    <Button fx:id="btn10" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn11" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn12" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn13" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn14" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    
+    <Button fx:id="btn20" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn21" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn22" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn23" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn24" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    
+    <Button fx:id="btn30" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn31" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn32" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn33" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn34" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    
+    <Button fx:id="btn40" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn41" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn42" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn43" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn44" styleClass="cell" text="hi" onAction="#handleCellClick"/> -->
+</GridPane>
