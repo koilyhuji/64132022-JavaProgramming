@@ -15,6 +15,7 @@ import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.ArcType;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
@@ -33,7 +34,7 @@ public class MainApp extends Application {
         
         Button drawButton = new Button("Vẽ");
         drawButton.setOnAction(event -> {
-            isDrawing = !isDrawing;  
+            isDrawing = !isDrawing;
             if (isDrawing) {
                 drawButton.setText("Ngừng vẽ");
             } else {
@@ -101,11 +102,11 @@ public class MainApp extends Application {
         
         gc.setFill(Color.WHITE);
         gc.setStroke(Color.RED);
-        gc.fillOval(120, 210, 10, 10);
-        gc.strokeOval(120, 210, 10, 10);
-        
-        gc.fillOval(170, 210, 10, 10);
-        gc.strokeOval(170, 210, 10, 10);
+        gc.strokeArc(110, 220, 5, 10, 90, 160,ArcType.OPEN);
+        gc.strokeArc(120, 220, 5, 10, 90, -160, ArcType.OPEN);
+
+        gc.strokeArc(165, 220, 5, 10, 90, 160, ArcType.OPEN);
+        gc.strokeArc(175, 220, 5, 10, 90, -160, ArcType.OPEN);
         
         DrawWithMouse(canvas);
         root.getChildren().add(canvas);
