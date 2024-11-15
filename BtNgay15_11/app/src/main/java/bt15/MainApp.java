@@ -53,17 +53,17 @@ public class MainApp extends Application {
         
 
         gc.beginPath();
-        gc.moveTo(120, 60);
-        gc.lineTo(120, 30);
-        gc.lineTo(140, 45);
+        gc.moveTo(125, 60);
+        gc.lineTo(120, 20);
+        gc.lineTo(138, 45);
         gc.closePath();
         gc.fill();
         gc.stroke();
 
         gc.beginPath();
         gc.moveTo(175, 60);
-        gc.lineTo(170, 30);
-        gc.lineTo(190, 60);
+        gc.lineTo(175, 20);
+        gc.lineTo(165, 45);
         gc.closePath();
         gc.fill();
         gc.stroke();
