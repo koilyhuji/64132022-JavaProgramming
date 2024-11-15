@@ -9,14 +9,18 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Properties;
 
 public class App {
       
 
     public static void main(String[] args) {
+        Properties properties = new Properties();
         String url = "jdbc:mysql://localhost:3306/demobanhang";
-        String user = "root";
-        String password = "123";
+        // String user = properties.getProperty("db.user");
+        // String password = properties.getProperty("db.password");
+        String user = "";
+        String password = "";
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             System.out.println("Connected to the database!");
@@ -31,7 +35,7 @@ public class App {
                 StringBuilder inketqua = new StringBuilder();
                 inketqua.append(id).append("\t").append(tenSanPham).append("\t").append(mota);
                 System.out.println(inketqua.toString());
-            
+                            
             }
 
         } catch (SQLException e) {

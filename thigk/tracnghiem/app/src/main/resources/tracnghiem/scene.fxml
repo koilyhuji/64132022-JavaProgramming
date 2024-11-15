@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" style="-fx-background-color:#608BC1; " xmlns:fx="http://javafx.com/fxml/1" fx:controller="tracnghiem.FXMLController">
+    <!-- Score Display (Top Left) -->
+    <Label layoutX="20.0" layoutY="20.0" text="Score: ">
+        <font>
+            <Font size="18.0"/>
+        </font>
+    </Label>
+    <Label fx:id="scoreLabel" layoutX="80.0" layoutY="20.0" text="0">
+        <font>
+            <Font size="18.0"/>
+        </font>
+    </Label>
+
+    <!-- Timer Display (Top Right) -->
+    <Label layoutX="480.0" layoutY="20.0" text="Time: ">
+        <font>
+            <Font size="18.0"/>
+        </font>
+    </Label>
+    <Label fx:id="timerLabel" layoutX="530.0" layoutY="20.0" text="00:00">
+        <font>
+            <Font size="18.0"/>
+        </font>
+    </Label>
+
+    <!-- Quiz Question Section (Center) -->
+    <VBox alignment="CENTER" spacing="20" layoutX="150.0" layoutY="100.0" prefWidth="300.0">
+        <Label text="Trắc nghiệm" textAlignment="CENTER">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </Label>
+        
+        <HBox alignment="CENTER" spacing="10">
+            <!-- First Number -->
+            <TextField fx:id="firstNumberField" prefWidth="60" alignment="CENTER">
+                <font>
+                    <Font size="18.0"/>
+                </font>
+            </TextField>
+
+            <!-- Operator -->
+            <TextField fx:id="operatorField" prefWidth="40" alignment="CENTER">
+                <font>
+                    <Font size="18.0"/>
+                </font>
+            </TextField>
+
+            <TextField fx:id="secondNumberField" prefWidth="60" alignment="CENTER">
+                <font>
+                    <Font size="18.0"/>
+                </font>
+            </TextField>
+
+            <Label text="=" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0"/>
+                </font>
+            </Label>
+
+            <TextField fx:id="answerField" prefWidth="60" alignment="CENTER" editable="false" text="?">
+                <font>
+                    <Font size="18.0"/>
+                </font>
+            </TextField>
+        </HBox>
+
+        <HBox xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="center">
+            <VBox spacing="10" alignment="center">
+               <Button  onAction="#handleAns" fx:id="button1" text="Button 1" prefWidth="160" style="-fx-background-color: white; -fx-background-radius: 15;-fx-text-fill: black; -fx-font-size: 20;" />
+               <Button  onAction="#handleAns" fx:id="button2" text="Button 2" prefWidth="160" style="-fx-background-color: white; -fx-background-radius: 15;-fx-text-fill: black; -fx-font-size: 20;" />
+            </VBox>
+            <VBox spacing="10" alignment="center">
+               <Button  onAction="#handleAns" fx:id="button3" text="Button 3" prefWidth="160" style="-fx-background-color: white; -fx-background-radius: 15;-fx-text-fill: black; -fx-font-size: 20;" />
+               <Button  onAction="#handleAns" fx:id="button4" text="Button 4" prefWidth="160" style="-fx-background-color: white; -fx-background-radius: 15;-fx-text-fill: black; -fx-font-size: 20;" />
+            </VBox>
+         </HBox>
+
+        <Button fx:id="generateButton" onAction="#handleGenBtn" text="Generate quiz" 
+                style="-fx-background-color: #4CAF50; -fx-text-fill: white;">
+            <font>
+                <Font size="16.0"/>
+            </font>
+            <padding>
+                <Insets top="10" right="20" bottom="10" left="20"/>
+            </padding>
+        </Button>
+    </VBox>
+</AnchorPane>

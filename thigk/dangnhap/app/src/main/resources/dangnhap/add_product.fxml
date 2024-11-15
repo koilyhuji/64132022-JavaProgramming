@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dangnhap.AddproductController" prefWidth="600.0">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Thêm Sản Phẩm" style="-fx-font-size: 24px;"/>
+     
+    <HBox GridPane.columnIndex="0" 
+          GridPane.rowIndex="2" spacing="10" prefHeight="10.0" prefWidth="954.0">
+         <TextField fx:id="tensp" promptText="Tên Sản Phẩm"
+               prefWidth="90"/>
+          <TextField fx:id="dongia" promptText="Đơn giá"
+               prefWidth="90"/>
+          <TextField fx:id="mota" promptText="mô tả"
+               prefWidth="150"/>
+    <children>
+        <Button mnemonicParsing="false" fx:id="addbtn" onAction="#onInsert" prefHeight="31.0" prefWidth="78.0"  text="Thêm" ><HBox.margin>
+        <Insets />
+        </HBox.margin>
+        </Button>
+        <Button lineSpacing="9.0" fx:id="cancelbtn" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" onAction="#onCancel" text="Hủy">
+        </Button>
+    </children>
+
+    </HBox>
+   
+</VBox>
