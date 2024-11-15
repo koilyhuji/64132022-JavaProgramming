@@ -9,6 +9,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -24,73 +26,75 @@ public class MainApp extends Application {
 
          Pane root = new Pane();
         
-        // Create triangle for the head
-        Polygon triangle = new Polygon();
-        triangle.getPoints().addAll(
-            150.0, 50.0,  // Top point
-            50.0, 150.0,  // Bottom left
-            250.0, 150.0  // Bottom right
-        );
-        triangle.setStroke(Color.BLACK);
-        triangle.setFill(Color.WHITE);
+        Canvas canvas = new Canvas(300, 300);
+        GraphicsContext gc = canvas.getGraphicsContext2D();
         
-        // Create ears
-        Polygon leftEar = new Polygon();
-        leftEar.getPoints().addAll(
-            120.0, 70.0,
-            140.0, 40.0,
-            160.0, 70.0
-        );
-        leftEar.setStroke(Color.BLACK);
-        leftEar.setFill(Color.WHITE);
+       
         
-        Polygon rightEar = new Polygon();
-        rightEar.getPoints().addAll(
-            140.0, 70.0,
-            160.0, 40.0,
-            180.0, 70.0
-        );
-        rightEar.setStroke(Color.BLACK);
-        rightEar.setFill(Color.WHITE);
         
-        // Create nose
-        Polygon nose = new Polygon();
-        nose.getPoints().addAll(
-            140.0, 100.0,
-            160.0, 100.0,
-            150.0, 115.0
-        );
-        nose.setStroke(Color.RED);
-        nose.setFill(Color.WHITE);
+        gc.setFill(Color.WHITE);
+        gc.setStroke(Color.BLACK);
+        gc.setLineWidth(2);
+        gc.fillOval(110, 150, 80, 80);
+        gc.strokeOval(110, 150, 80, 80);
+
         
-        // Create body circle
-        Circle body = new Circle(150, 180, 30);
-        body.setStroke(Color.BLACK);
-        body.setFill(Color.WHITE);
+
+        gc.setFill(Color.WHITE);
+        gc.setStroke(Color.BLACK);
+        gc.setLineWidth(2);
+        gc.beginPath();
+        gc.moveTo(150, 30);    
+        gc.lineTo(30, 170);    
+        gc.lineTo(270, 170);   
+        gc.closePath();
+        gc.fill();
+        gc.stroke();
         
-        // Create feet circles
-        Circle leftFoot = new Circle(130, 220, 15);
-        leftFoot.setStroke(Color.BLACK);
-        leftFoot.setFill(Color.WHITE);
+
+        gc.beginPath();
+        gc.moveTo(120, 60);
+        gc.lineTo(120, 30);
+        gc.lineTo(140, 45);
+        gc.closePath();
+        gc.fill();
+        gc.stroke();
+
+        gc.beginPath();
+        gc.moveTo(175, 60);
+        gc.lineTo(170, 30);
+        gc.lineTo(190, 60);
+        gc.closePath();
+        gc.fill();
+        gc.stroke();
+
+        gc.setFill(Color.WHITE);
+        gc.setStroke(Color.RED);
+        gc.beginPath();
+        gc.moveTo(135, 120);
+        gc.lineTo(165, 120);
+        gc.lineTo(150, 140);
+        gc.closePath();
+        gc.fill();
+        gc.stroke();
+
+        gc.setFill(Color.WHITE);
+        gc.setStroke(Color.BLACK);        
+        gc.fillOval(105, 200, 40, 40);
+        gc.strokeOval(105, 200, 40, 40);
         
-        Circle rightFoot = new Circle(170, 220, 15);
-        rightFoot.setStroke(Color.BLACK);
-        rightFoot.setFill(Color.WHITE);
+        gc.fillOval(155, 200, 40, 40);
+        gc.strokeOval(155, 200, 40, 40);
         
-        // Add red circles for feet details
-        Circle leftFootDetail = new Circle(130, 220, 5);
-        leftFootDetail.setStroke(Color.RED);
-        leftFootDetail.setFill(Color.WHITE);
+        gc.setFill(Color.WHITE);
+        gc.setStroke(Color.RED);
+        gc.fillOval(120, 210, 10, 10);
+        gc.strokeOval(120, 210, 10, 10);
         
-        Circle rightFootDetail = new Circle(170, 220, 5);
-        rightFootDetail.setStroke(Color.RED);
-        rightFootDetail.setFill(Color.WHITE);
+        gc.fillOval(170, 210, 10, 10);
+        gc.strokeOval(170, 210, 10, 10);
         
-        root.getChildren().addAll(
-            triangle, leftEar, rightEar, nose,
-            body, leftFoot, rightFoot,
-            leftFootDetail, rightFootDetail
-        );
+        root.getChildren().add(canvas);
         
         Scene scene = new Scene(root, 300, 300);
         stage.setTitle("Triangle Cat");
