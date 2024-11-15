@@ -9,6 +9,10 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 
 
@@ -16,12 +20,80 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("scene.fxml"));
         
-        Scene scene = new Scene(root);
-        //scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
+
+         Pane root = new Pane();
         
-        stage.setTitle("JavaFX and Gradle");
+        // Create triangle for the head
+        Polygon triangle = new Polygon();
+        triangle.getPoints().addAll(
+            150.0, 50.0,  // Top point
+            50.0, 150.0,  // Bottom left
+            250.0, 150.0  // Bottom right
+        );
+        triangle.setStroke(Color.BLACK);
+        triangle.setFill(Color.WHITE);
+        
+        // Create ears
+        Polygon leftEar = new Polygon();
+        leftEar.getPoints().addAll(
+            120.0, 70.0,
+            140.0, 40.0,
+            160.0, 70.0
+        );
+        leftEar.setStroke(Color.BLACK);
+        leftEar.setFill(Color.WHITE);
+        
+        Polygon rightEar = new Polygon();
+        rightEar.getPoints().addAll(
+            140.0, 70.0,
+            160.0, 40.0,
+            180.0, 70.0
+        );
+        rightEar.setStroke(Color.BLACK);
+        rightEar.setFill(Color.WHITE);
+        
+        // Create nose
+        Polygon nose = new Polygon();
+        nose.getPoints().addAll(
+            140.0, 100.0,
+            160.0, 100.0,
+            150.0, 115.0
+        );
+        nose.setStroke(Color.RED);
+        nose.setFill(Color.WHITE);
+        
+        // Create body circle
+        Circle body = new Circle(150, 180, 30);
+        body.setStroke(Color.BLACK);
+        body.setFill(Color.WHITE);
+        
+        // Create feet circles
+        Circle leftFoot = new Circle(130, 220, 15);
+        leftFoot.setStroke(Color.BLACK);
+        leftFoot.setFill(Color.WHITE);
+        
+        Circle rightFoot = new Circle(170, 220, 15);
+        rightFoot.setStroke(Color.BLACK);
+        rightFoot.setFill(Color.WHITE);
+        
+        // Add red circles for feet details
+        Circle leftFootDetail = new Circle(130, 220, 5);
+        leftFootDetail.setStroke(Color.RED);
+        leftFootDetail.setFill(Color.WHITE);
+        
+        Circle rightFootDetail = new Circle(170, 220, 5);
+        rightFootDetail.setStroke(Color.RED);
+        rightFootDetail.setFill(Color.WHITE);
+        
+        root.getChildren().addAll(
+            triangle, leftEar, rightEar, nose,
+            body, leftFoot, rightFoot,
+            leftFootDetail, rightFootDetail
+        );
+        
+        Scene scene = new Scene(root, 300, 300);
+        stage.setTitle("Triangle Cat");
         stage.setScene(scene);
         stage.show();
     }

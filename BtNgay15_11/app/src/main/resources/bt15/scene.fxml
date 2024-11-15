@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bt15.FXMLController">
+<Pane maxHeight="-Infinity" fx:controller="bt15.FXMLController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label fx:id="label" text="Label" />
+      <Polygon fill="WHITE" stroke="BLACK" points="150.0,50.0, 50.0,150.0, 250.0,150.0"/>
+     
+      <Polygon fill="WHITE" stroke="BLACK" points="120.0,70.0, 140.0,40.0, 160.0,70.0"/>
+
+      <Polygon fill="WHITE" stroke="BLACK" points="140.0,70.0, 160.0,40.0, 180.0,70.0"/>
+      
+      
+      <Polygon fill="WHITE" stroke="RED" points="140.0,100.0, 160.0,100.0, 150.0,115.0"/>
+      
+      <Circle centerX="150.0" centerY="180.0" radius="30.0" fill="WHITE" stroke="BLACK"/>
+      
+      <Circle centerX="130.0" centerY="220.0" radius="15.0" fill="WHITE" stroke="BLACK"/>
+      
+      <Circle centerX="170.0" centerY="220.0" radius="15.0" fill="WHITE" stroke="BLACK"/>
+      
+      <Circle centerX="130.0" centerY="220.0" radius="5.0" fill="WHITE" stroke="RED"/>
+      
+      <Circle centerX="170.0" centerY="220.0" radius="5.0" fill="WHITE" stroke="RED"/>
    </children>
-</StackPane>
+</Pane>
