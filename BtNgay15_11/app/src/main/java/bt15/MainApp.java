@@ -11,6 +11,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -20,17 +22,28 @@ import javafx.stage.Stage;
 
 public class MainApp extends Application {
 
+    double mx, my;
+    boolean isDrawing = false; 
+
     @Override
     public void start(Stage stage) throws Exception {
         
 
-         Pane root = new Pane();
+        Pane root = new Pane();
         
+        Button drawButton = new Button("Vẽ");
+        drawButton.setOnAction(event -> {
+            isDrawing = !isDrawing;  
+            if (isDrawing) {
+                drawButton.setText("Ngừng vẽ");
+            } else {
+                drawButton.setText("Vẽ");
+            }
+        });
         Canvas canvas = new Canvas(300, 300);
         GraphicsContext gc = canvas.getGraphicsContext2D();
         
-       
-        
+
         
         gc.setFill(Color.WHITE);
         gc.setStroke(Color.BLACK);
@@ -94,14 +107,40 @@ public class MainApp extends Application {
         gc.fillOval(170, 210, 10, 10);
         gc.strokeOval(170, 210, 10, 10);
         
+        DrawWithMouse(canvas);
         root.getChildren().add(canvas);
+        root.getChildren().add(drawButton);
+
         
         Scene scene = new Scene(root, 300, 300);
         stage.setTitle("Triangle Cat");
         stage.setScene(scene);
         stage.show();
     }
+    public void DrawWithMouse(Canvas cv){
+        GraphicsContext gc = cv.getGraphicsContext2D();
+        gc.setLineWidth(2);
+        gc.setStroke(Color.BLACK);
+        cv.addEventHandler(MouseEvent.MOUSE_PRESSED, event -> {
+            if(isDrawing){
+                
+                mx = event.getX();
+                my = event.getY();
+            }
+        });
 
+        cv.addEventHandler(MouseEvent.MOUSE_DRAGGED, event -> {
+           if(isDrawing){
+
+               gc.strokeLine(mx, my, event.getX(), event.getY());
+               
+               mx = event.getX();
+               my = event.getY();
+            }
+        });
+
+      
+    }
     public static void main(String[] args) {
         launch(args);
         
