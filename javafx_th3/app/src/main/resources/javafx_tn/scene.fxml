@@ -113,7 +113,7 @@
                 </VBox.margin>
             </TextArea>
             
-         <VBox spacing="10" style="-fx-padding: 20;">
+         <VBox  spacing="10" style="-fx-padding: 20;">
             
             <HBox spacing="10">
                <Label>
@@ -123,7 +123,7 @@
                         </ImageView>
                      </graphic>
                </Label>
-               <Button text="Phương án A" style="-fx-background-color: #1565C0;
+               <Button fx:id="btnAnsA" onAction="#handleButtonAnsClick" text="Phương án A" style="-fx-background-color: #1565C0;
                            -fx-text-fill: white;
                            -fx-min-width: 370px;
                            -fx-min-height: 40px;
@@ -141,7 +141,7 @@
                         </ImageView>
                      </graphic>
                </Label>
-               <Button text="Phương án B" style="-fx-background-color: #1565C0;
+               <Button fx:id="btnAnsB" onAction="#handleButtonAnsClick" text="Phương án B" style="-fx-background-color: #1565C0;
                            -fx-text-fill: white;
                            -fx-min-width: 370px;
                            -fx-min-height: 40px;
@@ -160,7 +160,7 @@
                         </ImageView>
                      </graphic>
                </Label>
-               <Button text="Phương án C" style="-fx-background-color: #1565C0;
+               <Button fx:id="btnAnsC" onAction="#handleButtonAnsClick" text="Phương án C" style="-fx-background-color: #1565C0;
                            -fx-text-fill: white;
                            -fx-min-width: 370px;
                            -fx-min-height: 40px;
@@ -179,7 +179,7 @@
                         </ImageView>
                      </graphic>
                </Label>
-               <Button text="Phương án D" style="-fx-background-color: #1565C0;
+               <Button fx:id="btnAnsD" onAction="#handleButtonAnsClick" text="Phương án D" style="-fx-background-color: #1565C0;
                            -fx-text-fill: white;
                            -fx-min-width: 370px;
                            -fx-min-height: 40px;
