@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="javafx_tn.QuizController"
+            style="-fx-background-color: #1a472a;"
+            prefWidth="971" prefHeight="570">
+    
+    <HBox spacing="20" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" 
+          AnchorPane.rightAnchor="20" AnchorPane.bottomAnchor="20">
+
+        <VBox  spacing="5" style="-fx-background-color: #2E7D32; -fx-padding: 15;">
+            <Label text="FLASH QZ" style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;"/>
+            
+            <VBox fx:id="buttonVboxCH" spacing="10" style="-fx-padding: 10 0 0 0;">
+                <Button text="Câu 10"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 9"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 8"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 7"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 6"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 5"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 4"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 3"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 2"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+               />
+                <Button text="Câu 1"  style="-fx-background-color: #64B5F6; 
+               -fx-text-fill: black; 
+               -fx-min-width: 150px; 
+               -fx-min-height: 30px; 
+               -fx-font-size: 14px; 
+               -fx-cursor: hand;"
+               onAction="#handleButtonQClick"
+                />
+            </VBox>
+        </VBox>
+        
+
+        <VBox spacing="15" HBox.hgrow="ALWAYS" style="-fx-background-color: #e6e6e6;">
+            <TextArea wrapText="true" editable="false"
+                      text="Lời hỏi Câu 1 ở đây"
+                      style="-fx-background-color: transparent; -fx-text-fill: black; 
+                             -fx-font-size: 16px;">
+                <VBox.margin>
+                    <Insets top="20" right="20" left="20"/>
+                </VBox.margin>
+            </TextArea>
+            
+         <VBox spacing="10" style="-fx-padding: 20;">
+            
+            <HBox spacing="10">
+               <Label>
+                     <graphic>
+                        <ImageView fitWidth="40" fitHeight="40" preserveRatio="true">
+                           <Image url="@./images/lla.png"/>
+                        </ImageView>
+                     </graphic>
+               </Label>
+               <Button text="Phương án A" style="-fx-background-color: #1565C0;
+                           -fx-text-fill: white;
+                           -fx-min-width: 370px;
+                           -fx-min-height: 40px;
+                           -fx-font-size: 16px;
+                           -fx-cursor: hand;
+                           -fx-border-color: black;
+                           -fx-border-width: 1px;"/>
+            </HBox>
+
+            <HBox spacing="10">
+               <Label>
+                     <graphic>
+                        <ImageView fitWidth="40" fitHeight="40" preserveRatio="true">
+                           <Image url="@./images/llb.png"/>
+                        </ImageView>
+                     </graphic>
+               </Label>
+               <Button text="Phương án B" style="-fx-background-color: #1565C0;
+                           -fx-text-fill: white;
+                           -fx-min-width: 370px;
+                           -fx-min-height: 40px;
+                           -fx-font-size: 16px;
+                           -fx-cursor: hand;
+                           -fx-border-color: black;
+                           -fx-border-width: 1px;"/>
+            </HBox>
+
+
+            <HBox spacing="10">
+               <Label>
+                     <graphic>
+                        <ImageView fitWidth="40" fitHeight="40" preserveRatio="true">
+                           <Image url="@./images/llc.png"/>
+                        </ImageView>
+                     </graphic>
+               </Label>
+               <Button text="Phương án C" style="-fx-background-color: #1565C0;
+                           -fx-text-fill: white;
+                           -fx-min-width: 370px;
+                           -fx-min-height: 40px;
+                           -fx-font-size: 16px;
+                           -fx-cursor: hand;
+                           -fx-border-color: black;
+                           -fx-border-width: 1px;"/>
+            </HBox>
+
+         
+            <HBox spacing="10">
+               <Label>
+                     <graphic>
+                        <ImageView fitWidth="40" fitHeight="40" preserveRatio="true">
+                           <Image url="@./images/lld.png"/>
+                        </ImageView>
+                     </graphic>
+               </Label>
+               <Button text="Phương án D" style="-fx-background-color: #1565C0;
+                           -fx-text-fill: white;
+                           -fx-min-width: 370px;
+                           -fx-min-height: 40px;
+                           -fx-font-size: 16px;
+                           -fx-cursor: hand;
+                           -fx-border-color: black;
+                           -fx-border-width: 1px;"/>
+            </HBox>
+         </VBox>
+
+                     
+            <HBox alignment="CENTER_RIGHT" style="-fx-padding: 0 20 20 0;">
+                <Label text="Điểm" style="-fx-text-fill: black; -fx-font-size: 18px;"/>
+                <TextField editable="false" prefWidth="100" 
+                          style="-fx-background-color: rgba(255,255,255,0.2); 
+                                 -fx-text-fill: white; -fx-border-color: black;">
+                    <HBox.margin>
+                        <Insets left="10"/>
+                    </HBox.margin>
+                </TextField>
+            </HBox>
+        </VBox>
+    </HBox>
+    
+
+</AnchorPane>
