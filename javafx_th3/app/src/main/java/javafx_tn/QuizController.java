@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 import javafx.scene.Node;
 public class QuizController {
 
@@ -42,5 +43,8 @@ public class QuizController {
         btnAnsD.setStyle(btnAnsA.getStyle().toString());
         Button clickedButton = (Button) event.getSource();
         clickedButton.setStyle("-fx-background-color: #4FC978;-fx-text-fill: white;-fx-min-width: 370px;-fx-min-height: 40px;-fx-font-size: 16px;-fx-cursor: hand;-fx-border-color: black;  -fx-border-width: 1px;");
+    }
+    public void handleButtonExit(ActionEvent e){
+        System.exit(0); 
     }
 }

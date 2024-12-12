@@ -9,6 +9,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 
@@ -24,8 +25,16 @@ public class MainApp extends Application {
         stage.setTitle("JavaFX and Gradle");
         stage.setScene(scene);
         stage.show();
+        
+        stage.setFullScreen(true);
+        scene.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.ESCAPE) {
+                stage.setFullScreen(false);  
+            }
+        });
     }
 
+    
     public static void main(String[] args) {
         launch(args);
         
