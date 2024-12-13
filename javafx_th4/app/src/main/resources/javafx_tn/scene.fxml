@@ -6,6 +6,8 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.media.MediaView?>
+<?import javafx.scene.media.Media?>
+<?import javafx.scene.media.MediaPlayer?>
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
@@ -115,7 +117,8 @@
             </VBox>
             <VBox fx:id="mmWrapper">
             </VBox>
-            <MediaView fx:id="mediaView" fitWidth="100" fitHeight="100" />
+            <MediaView fx:id="mediaView" style="-fx-backround-color: #e6e6e6;" fitWidth="100" fitHeight="100" />
+            
          </HBox>
          
 

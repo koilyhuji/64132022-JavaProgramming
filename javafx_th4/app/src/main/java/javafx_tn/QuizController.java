@@ -1,6 +1,9 @@
 package javafx_tn;
 
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,18 +73,44 @@ public class QuizController {
             buttonVboxCH.getChildren().add(button);
         }
 
-        String mediaPath = "/javafx_tn/images/lla.png"; 
-        playMedia(mediaPath);
+        String mediaPath = "free.mp4"; 
+        try {
+            playMedia("free.mp4");
+        } catch (MalformedURLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
        
     }
 
-    private void playMedia(String mediaPath) {
-        String resource = getClass().getResource(mediaPath).toExternalForm();  
-        File res = new File(resource);
-        Media media = new Media(res.toURI().toString());
+    private void playMedia(String mediaPath) throws MalformedURLException {
+       
+        URL resource = null;
+
+            resource = getClass().getResource(mediaPath);
+        
+        File res = new File(resource.toString());
+        Media media = new Media(resource.toString());
+        //Media media = new Media("https://litter.catbox.moe/bpqa7g.mp4");
         mediaPlayer = new MediaPlayer(media);
         mediaView.setMediaPlayer(mediaPlayer);
         mediaPlayer.play();
+        mediaPlayer.setOnReady(new Runnable() {
+            @Override
+            public void run() {
+                javafx.util.Duration total = media.getDuration();
+                System.out.println(total);
+                
+            }
+        });
+        mediaPlayer.setOnError(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Error occurred: " + mediaPlayer.getError());
+                System.out.println(mediaPlayer.getStatus());
+            }
+        });
+        
         
     }
     public void handleButtonQClick(ActionEvent event,int quesindex){
@@ -132,6 +161,7 @@ public class QuizController {
         }
         score = (float) (Math.round(score * 100.0) / 100.0);
         txtScore.setText(String.valueOf(score));;
+        System.out.println(mediaPlayer.getCurrentTime());
     }
     public void handleButtonExit(ActionEvent e){
         System.exit(0); 

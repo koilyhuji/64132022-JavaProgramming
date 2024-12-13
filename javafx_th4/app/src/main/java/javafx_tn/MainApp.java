@@ -32,6 +32,8 @@ public class MainApp extends Application {
                 stage.setFullScreen(false);  
             }
         });
+
+        
     }
 
     
