@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="java_th_tudien.DictionaryController"
+      spacing="10" alignment="TOP_CENTER" prefWidth="300" prefHeight="600"
+      style="-fx-background-color: #f0f0f0;-fx-padding: 0 10 0 10;">
+      
+  
+    <AnchorPane layoutY="-1.0" prefHeight="48.0" prefWidth="300.0" style="-fx-background-color: #0866a9;">
+        <children>
+            <Text fill="#fffffff7" style="-fx-font-size: bold; -fx-size:20px;" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionary Application" textAlignment="CENTER" wrappingWidth="720.0">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Text>
+        </children>
+    </AnchorPane>
+
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="Nhập từ" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+        <TextField fx:id="searchField" promptText="Nhập từ " minWidth="200" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
+        <Button text="Tìm" fx:id="searchButton" onAction="#searchWord" style="-fx-background-color: #0866a9; -fx-text-fill: #fff; -fx-padding: 10; -fx-border-color: #0866a9; -fx-border-width: 1;"/>
+    </VBox>
+
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="Kết quả:" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+        <TextField fx:id="meaningField" promptText="Kết quả " minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
+        <TextField fx:id="pronunciationField" promptText="Phiên âm" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
+        <TextArea fx:id="additionalInfoField" promptText="thông tin khác" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;" prefRowCount="5" wrapText="true"/>
+    </VBox>
+
+</VBox>

@@ -117,6 +117,7 @@
             </VBox>
             <VBox fx:id="mmWrapper">
             </VBox>
+            
             <MediaView fx:id="mediaView" style="-fx-backround-color: #e6e6e6;" fitWidth="100" fitHeight="100" />
             
          </HBox>
