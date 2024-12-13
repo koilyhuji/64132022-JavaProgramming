@@ -4,9 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonBar;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Dialog;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
 
 public class DictionaryController {
 
@@ -53,5 +58,63 @@ public class DictionaryController {
             pronunciationField.setText("");
             additionalInfoField.setText("");
         }
+    }
+    @FXML
+    private void addWord(){
+        Dialog<Void> dialog = new Dialog<>();
+        dialog.setTitle("Thêm từ mới");
+        dialog.setHeaderText("nhập ngữ nghĩa từ");
+
+        GridPane grid = new GridPane();
+        TextField wordField = new TextField();
+        wordField.setPromptText("Từ");
+
+        TextField translationField = new TextField();
+        translationField.setPromptText("Dịch");
+
+        TextArea descriptionField = new TextArea();
+        descriptionField.setPromptText("Mô tả");
+        descriptionField.setPrefRowCount(4);
+
+        grid.add(new Label("Từ:"), 0, 0);
+        grid.add(wordField, 1, 0);
+        grid.add(new Label("Dịch từ:"), 0, 1);
+        grid.add(translationField, 1, 1);
+        grid.add(new Label("Mô tả:"), 0, 2);
+        grid.add(descriptionField, 1, 2);
+
+        dialog.getDialogPane().setContent(grid);
+
+        ButtonType okButtonType = new ButtonType("Thêm", ButtonBar.ButtonData.OK_DONE);
+        ButtonType cancelButtonType = new ButtonType("Xóa", ButtonBar.ButtonData.CANCEL_CLOSE);
+
+        dialog.getDialogPane().getButtonTypes().addAll(okButtonType, cancelButtonType);
+
+        dialog.setResultConverter(dialogButton -> {
+            if (dialogButton == okButtonType) {
+                String word = wordField.getText().trim();
+                String translation = translationField.getText().trim();
+                String description = descriptionField.getText().trim();
+
+                if (!word.isEmpty() && !translation.isEmpty() && !description.isEmpty()) {
+
+                    dictionary.put(word, new String[]{translation, "", description});
+                    System.out.println("Đã thêm: " + word + " - " + translation + " - " + description);
+                } else {
+                    
+                    showAlert("Error", "All fields must be filled in");
+                }
+            }
+            return null;
+        });
+
+        dialog.showAndWait();
+    }
+     private void showAlert(String title, String message) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 }

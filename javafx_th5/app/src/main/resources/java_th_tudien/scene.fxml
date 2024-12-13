@@ -37,10 +37,14 @@
     </VBox>
 
     <VBox alignment="CENTER" spacing="10">
-        <Label text="Kết quả:" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
-        <TextField fx:id="meaningField" promptText="Kết quả " minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
-        <TextField fx:id="pronunciationField" promptText="Phiên âm" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
-        <TextArea fx:id="additionalInfoField" promptText="thông tin khác" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;" prefRowCount="5" wrapText="true"/>
+         <Label text="Kết quả:" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+         <TextField fx:id="meaningField" promptText="Kết quả " minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
+         <TextField fx:id="pronunciationField" promptText="Phiên âm" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;"/>
+         <TextArea fx:id="additionalInfoField" promptText="thông tin khác" minWidth="200" editable="false" style="-fx-padding: 10; -fx-border-color: #ccc; -fx-border-width: 1;" prefRowCount="5" wrapText="true"/>
+         <HBox>
+            <Button text="Thêm từ mới" fx:id="addButton" onAction="#addWord" style="-fx-background-color: #ffffff; -fx-text-fill: #000000; -fx-padding: 10; -fx-border-color: #0866a9; -fx-border-width: 1;"/>
+         </HBox>
     </VBox>
+
 
 </VBox>
