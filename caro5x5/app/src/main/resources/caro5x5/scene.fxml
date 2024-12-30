@@ -1,37 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="caro5x5.FXMLController">
+    <center>
+<GridPane hgap="10" vgap="10" >
 
-<GridPane  hgap="5" vgap="5" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="caro5x5.FXMLController">
-
-    <!-- <Button fx:id="btn00" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn01" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn02" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn03" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn04" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn00" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button fx:id="btn01" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Button fx:id="btn02" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+    <Button fx:id="btn03" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+    <Button fx:id="btn04" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+    <Button fx:id="btn05" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="0"/>
+    <Button fx:id="btn06" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="0"/>
+    <Button fx:id="btn07" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="0"/>
+    <Button fx:id="btn08" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="0"/>
+    <Button fx:id="btn09" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="0"/>
     
-    <Button fx:id="btn10" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn11" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn12" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn13" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn14" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn10" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button fx:id="btn11" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button fx:id="btn12" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+    <Button fx:id="btn13" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+    <Button fx:id="btn14" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+    <Button fx:id="btn15" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+    <Button fx:id="btn16" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="1"/>
+    <Button fx:id="btn17" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="1"/>
+    <Button fx:id="btn18" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="1"/>
+    <Button fx:id="btn19" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="1"/>
     
-    <Button fx:id="btn20" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn21" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn22" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn23" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn24" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn20" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Button fx:id="btn21" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Button fx:id="btn22" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+    <Button fx:id="btn23" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+    <Button fx:id="btn24" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+    <Button fx:id="btn25" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="2"/>
+    <Button fx:id="btn26" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="2"/>
+    <Button fx:id="btn27" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="2"/>
+    <Button fx:id="btn28" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="2"/>
+    <Button fx:id="btn29" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="2"/>
     
-    <Button fx:id="btn30" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn31" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn32" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn33" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn34" styleClass="cell" text="hi" onAction="#handleCellClick"/>
+    <Button fx:id="btn30" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <Button fx:id="btn31" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <Button fx:id="btn32" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+    <Button fx:id="btn33" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+    <Button fx:id="btn34" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="3"/>
+    <Button fx:id="btn35" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="3"/>
+    <Button fx:id="btn36" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="3"/>
+    <Button fx:id="btn37" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="3"/>
+    <Button fx:id="btn38" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="3"/>
+    <Button fx:id="btn39" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="3"/>
     
-    <Button fx:id="btn40" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn41" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn42" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn43" styleClass="cell" text="hi" onAction="#handleCellClick"/>
-    <Button fx:id="btn44" styleClass="cell" text="hi" onAction="#handleCellClick"/> -->
+    <Button fx:id="btn40" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <Button fx:id="btn41" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    <Button fx:id="btn42" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+    <Button fx:id="btn43" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+    <Button fx:id="btn44" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="4"/>
+    <Button fx:id="btn45" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="4"/>
+    <Button fx:id="btn46" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="4"/>
+    <Button fx:id="btn47" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="4"/>
+    <Button fx:id="btn48" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="4"/>
+    <Button fx:id="btn49" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="4"/>
+    
+    <Button fx:id="btn50" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+    <Button fx:id="btn51" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    <Button fx:id="btn52" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+    <Button fx:id="btn53" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="5"/>
+    <Button fx:id="btn54" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="5"/>
+    <Button fx:id="btn55" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="5"/>
+    <Button fx:id="btn56" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="5"/>
+    <Button fx:id="btn57" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="5"/>
+    <Button fx:id="btn58" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="5"/>
+    <Button fx:id="btn59" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="5"/>
+    
+    <Button fx:id="btn60" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+    <Button fx:id="btn61" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <Button fx:id="btn62" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+    <Button fx:id="btn63" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="6"/>
+    <Button fx:id="btn64" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="6"/>
+    <Button fx:id="btn65" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="6"/>
+    <Button fx:id="btn66" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="6"/>
+    <Button fx:id="btn67" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="6"/>
+    <Button fx:id="btn68" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="6"/>
+    <Button fx:id="btn69" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="6"/>
+    
+    <Button fx:id="btn70" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+    <Button fx:id="btn71" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+    <Button fx:id="btn72" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+    <Button fx:id="btn73" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="7"/>
+    <Button fx:id="btn74" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="7"/>
+    <Button fx:id="btn75" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="7"/>
+    <Button fx:id="btn76" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="7"/>
+    <Button fx:id="btn77" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="7"/>
+    <Button fx:id="btn78" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="7"/>
+    <Button fx:id="btn79" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="7"/>
+    
+    <Button fx:id="btn80" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+    <Button fx:id="btn81" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+    <Button fx:id="btn82" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="8"/>
+    <Button fx:id="btn83" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="8"/>
+    <Button fx:id="btn84" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="8"/>
+    <Button fx:id="btn85" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="8"/>
+    <Button fx:id="btn86" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="8"/>
+    <Button fx:id="btn87" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="8"/>
+    <Button fx:id="btn88" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="8"/>
+    <Button fx:id="btn89" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="8"/>
+    
+    <Button fx:id="btn90" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="0" GridPane.rowIndex="9"/>
+    <Button fx:id="btn91" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+    <Button fx:id="btn92" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="2" GridPane.rowIndex="9"/>
+    <Button fx:id="btn93" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="3" GridPane.rowIndex="9"/>
+    <Button fx:id="btn94" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="4" GridPane.rowIndex="9"/>
+    <Button fx:id="btn95" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="5" GridPane.rowIndex="9"/>
+    <Button fx:id="btn96" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="6" GridPane.rowIndex="9"/>
+    <Button fx:id="btn97" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="7" GridPane.rowIndex="9"/>
+    <Button fx:id="btn98" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="8" GridPane.rowIndex="9"/>
+    <Button fx:id="btn99" styleClass="cell" text="  " onAction="#handleCellClick" GridPane.columnIndex="9" GridPane.rowIndex="9"/>
+    
 </GridPane>
+</center>
+    <top>
+        <VBox alignment="CENTER" spacing="5">
+            <padding><Insets top="10" bottom="10"/></padding>
+             <Label fx:id="playerTurnLabel" text="Lượt của X" style="-fx-font-size: 20px;
+                -fx-font-weight: bold;
+                -fx-text-fill: #333333;
+                -fx-padding: 10px;" />
+             <Label fx:id="winnerLabel" text=" " style="-fx-font-size: 24px;
+                -fx-font-weight: bolder;
+                -fx-text-fill: green;
+                -fx-padding: 10px;" />
+        </VBox>
+    </top>
+    <left>
+        <VBox alignment="CENTER" spacing="10">
+        <padding><Insets left="10" right="10"/></padding>
+          <Label text="Player X :"/>
+          <TextField fx:id="playerXScore" editable="false" text="0"/>
+           <Label text="Player O :"/>
+          <TextField fx:id="playerOScore" editable="false" text="0"/>
+        </VBox>
+    </left>
+     
+</BorderPane>

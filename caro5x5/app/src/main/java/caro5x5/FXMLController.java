@@ -2,23 +2,34 @@ package caro5x5;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
 public class FXMLController {
 
     @FXML
     Button btn00;
-    private Button[][] buttons = new Button[5][5];
+    @FXML
+    private Label playerTurnLabel;
+    @FXML
+    private Label winnerLabel;
+    @FXML
+    private TextField playerXScore;
+    @FXML
+    private TextField playerOScore;
+
+    private Button[][] buttons = new Button[10][10];
     
     private boolean playerXTurn = true; 
-    private int[][] board = new int[5][5]; 
+    private int[][] board = new int[10][10]; 
 
     @FXML
     public void initialize() {
         
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                buttons[i][j] = (Button) ((GridPane) btn00.getParent()).getChildren().get(i * 5 + j);
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                buttons[i][j] = (Button) ((GridPane) btn00.getParent()).getChildren().get(i * 10 + j);
             }
         }
     }
@@ -28,21 +39,34 @@ public class FXMLController {
         Button clickedButton = (Button) event.getSource();
         int row = getRow(clickedButton);
         int col = getCol(clickedButton);
+        if(playerXTurn){
+          updatePlayerTurn("O");
+        }
+        else updatePlayerTurn("X");;
 
         if (board[row][col] == 0) { 
             board[row][col] = playerXTurn ? 1 : 2;
+            clickedButton.setStyle("-fx-text-fill: black;");
             clickedButton.setText(playerXTurn ? "X" : "O");
+            
             clickedButton.setDisable(true); 
             
             if (checkWin(row, col)) {
                
                 System.out.println((playerXTurn ? "X" : "O") + " wins!");
+                updateWinner((playerXTurn ? "X" : "O"));
             }
             
-            playerXTurn = !playerXTurn; // Switch turns
+            playerXTurn = !playerXTurn; 
         }
     }
+    public void updatePlayerTurn(String player){
+        playerTurnLabel.setText( "Lượt của " + player);
+    }
 
+    public void updateWinner(String winner){
+        winnerLabel.setText(winner + " Thắng!");
+    }
     private int getRow(Button button) {
         
         String id = button.getId();
@@ -59,14 +83,14 @@ public class FXMLController {
         int celval = board[row][col];
 
         int counttop = 0, countbottom = 0, countleft = 0, countright = 0, countptop = 0,countpbottom = 0, countstop = 0,countsbottom = 0;
-        //count cell that has the same value at the top of the current cell
+        
         for(int i = row; i>=0; i--){
             if(board[i][col] == celval){
                 countbottom++;
             }
             else break;
         }
-        //count cell that has the same value at the bottom of the current cell
+        
         for(int i = row;  i< board.length;i++){
             if(board[i][col] == celval){
                 counttop++;
